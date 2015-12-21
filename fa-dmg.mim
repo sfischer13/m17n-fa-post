@@ -1,0 +1,95 @@
+;; -*- mode: lisp; -*-
+
+;; Author: Stefan Fischer
+;; License: MIT
+;; Source: https://github.com/sfischer13/m17n-fa-dmg
+
+(input-method fa dmg)
+
+(description (_"Input method for Persian with prefix modifiers.
+
+For a description of the layout, see https://github.com/sfischer13/m17n-fa-dmg.
+"))
+
+(title "ف")
+
+(map
+  (default
+    ;; Alphabet
+    ("a" "ا")
+    ("b" "ب")
+    ("p" "پ")
+    ("t" "ت")
+    ("-s" "ث")
+    ("^g" "ج")
+    ("^c" "چ")
+    (".h" "ح")
+    ("-h" "خ")
+    ("x" "خ") ; NB!
+    ("d" "د")
+    ("-z" "ذ")
+    ("r" "ر")
+    ("z" "ز")
+    ("^z" "ژ")
+    ("s" "س")
+    ("^s" "ش")
+    (".s" "ص")
+    (":z" "ض") ; NB!
+    (".t" "ط")
+    (".z" "ظ")
+    ("E" "ع") ; NB!
+    (".g" "غ")
+    ("f" "ف")
+    ("q" "ق")
+    ("k" "ک")
+    ("K" "ك") ; Arabic variant
+    ("g" "گ")
+    ("l" "ل")
+    ("m" "م")
+    ("n" "ن")
+    ("h" "ه")
+    ("v" "و")
+    ("y" "ی")
+    ("Y" "ي") ; Arabic variant
+
+    ;; Hamza
+    ("H" "ء") ; NB!
+
+    ;; Teh Marbuta
+    ("T" "ة") ; NB!
+
+    ;; Ligature Lam Alef
+    ("L" "لا")
+
+    ;; Alef shortcuts
+    ("A" "آ") ; Alef Madda
+    ("N" "اً") ; Alef with Fathatan
+    ("M" "ى") ; Alef Maksura
+    ("W" "ٱ") ; Alef Wasla
+
+    ;; Numerals
+    ; Persian
+    ("1" "۱")
+    ("2" "۲")
+    ("3" "۳")
+    ("4" "۴")
+    ("5" "۵")
+    ("6" "۶")
+    ("7" "۷")
+    ("8" "۸")
+    ("9" "۹")
+    ("0" "۰")
+    ; European
+    ("\\1" "1")
+    ("\\2" "2")
+    ("\\3" "3")
+    ("\\4" "4")
+    ("\\5" "5")
+    ("\\6" "6")
+    ("\\7" "7")
+    ("\\8" "8")
+    ("\\9" "9")
+    ("\\0" "0")
+))
+
+(state (init (default)))
