@@ -95,6 +95,22 @@ For a description of the layout, see https://github.com/sfischer13/m17n-fa-dmg.
     ("#9" "9")
     ("#0" "0")
 
+    ;; Punctuation
+    ; Persian
+    ("," "،")
+    (";" "؛")
+    ("?" "؟")
+    ("%" "٪")
+    ("*" "٭") ; Arabic star
+    ("_" "ـ") ; Tatweel
+    ; European
+    ("#," ",")
+    ("#;" ";")
+    ("#?" "?")
+    ("#%" "%")
+    ("#*" "*")
+    ("#_" "_")
+
     ;; Control characters
     ((C-J) "‍")  ; zero-width joiner (ZWJ, U+200D)
     ((C-N) "‌")  ; zero-width non-joiner (ZWNJ, U+200C)
