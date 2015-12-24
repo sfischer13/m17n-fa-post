@@ -114,6 +114,7 @@ For a description of the layout, see https://github.com/sfischer13/m17n-fa-dmg.
     ;; Control characters
     ((C-J) "‍")  ; zero-width joiner (ZWJ, U+200D)
     ((C-N) "‌")  ; zero-width non-joiner (ZWNJ, U+200C)
+    ((S-\ ) "‌") ; zero-width non-joiner (ZWNJ, U+200C)
 
     ;; Bi-directional text
     ((C-L) "‎") ; left-to-right mark (LRM, U+200E)
