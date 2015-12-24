@@ -26,8 +26,7 @@ For a description of the layout, see https://github.com/sfischer13/m17n-fa-dmg.
     ("^g" "ج")
     ("^c" "چ")
     (".h" "ح")
-    ("-h" "خ")
-    ("x" "خ") ; NB!
+    ("-h" "خ") ; NB!
     ("d" "د")
     ("-z" "ذ")
     ("r" "ر")
@@ -44,7 +43,6 @@ For a description of the layout, see https://github.com/sfischer13/m17n-fa-dmg.
     ("f" "ف")
     ("q" "ق")
     ("k" "ک")
-    ("K" "ك") ; Arabic variant
     ("g" "گ")
     ("l" "ل")
     ("m" "م")
@@ -52,11 +50,16 @@ For a description of the layout, see https://github.com/sfischer13/m17n-fa-dmg.
     ("h" "ه")
     ("v" "و")
     ("y" "ی")
-    ("Y" "ي") ; Arabic variant
+    ; Arabic variants
+    ("K" "ك")
+    ("Y" "ي")
+    ; Shortcuts
+    ("x" "خ") ; NB!
+
     ; Hamza
-    ("H" "ء") ; NB!
+    ("H" "ء")
     ; Teh Marbuta
-    ("T" "ة") ; NB!
+    ("T" "ة")
     ; Ligature Lam Alef
     ("L" "لا")
     ; Alef Madda
