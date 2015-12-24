@@ -1,12 +1,14 @@
 ;; -*- mode: lisp; -*-
 
+;; fa-dmg.mim -- Input method for Farsi with prefix modifiers
+
 ;; Author: Stefan Fischer
 ;; License: MIT
 ;; Source: https://github.com/sfischer13/m17n-fa-dmg
 
 (input-method fa dmg)
 
-(description (_"Input method for Persian with prefix modifiers.
+(description (_"Farsi input method with prefix modifiers.
 
 For a description of the layout, see https://github.com/sfischer13/m17n-fa-dmg.
 "))
@@ -15,7 +17,7 @@ For a description of the layout, see https://github.com/sfischer13/m17n-fa-dmg.
 
 (map
   (default
-    ;; Alphabet
+    ;; Letters
     ("a" "ا")
     ("b" "ب")
     ("p" "پ")
@@ -51,21 +53,20 @@ For a description of the layout, see https://github.com/sfischer13/m17n-fa-dmg.
     ("v" "و")
     ("y" "ی")
     ("Y" "ي") ; Arabic variant
-
-    ;; Hamza
+    ; Hamza
     ("H" "ء") ; NB!
-
-    ;; Teh Marbuta
+    ; Teh Marbuta
     ("T" "ة") ; NB!
-
-    ;; Ligature Lam Alef
+    ; Ligature Lam Alef
     ("L" "لا")
-
-    ;; Alef shortcuts
-    ("A" "آ") ; Alef Madda
-    ("N" "اً") ; Alef with Fathatan
-    ("M" "ى") ; Alef Maksura
-    ("W" "ٱ") ; Alef Wasla
+    ; Alef Madda
+    ("A" "آ")
+    ; Alef with Fathatan
+    ("N" "اً")
+    ; Alef Wasla
+    ("W" "ٱ")
+    ; Alef Maksura
+    ("M" "ى")
 
     ;; Numerals
     ; Persian
