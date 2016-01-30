@@ -92,7 +92,15 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ; Alef Maksura
     ("M" "ى")
 
-    ;; Numerals
+
+    ;; Typography
+    ("<<" "«")
+    (">>" "»")
+    ("--" "–")
+    ("---" "—")
+    ("..." "…")
+
+    ;; Mathematics
     ; Persian
     ("1" "۱")
     ("2" "۲")
