@@ -133,13 +133,17 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ("#_" "_")
 
     ;; Control characters
-    ((C-J) "‍")  ; zero-width joiner (ZWJ, U+200D)
-    ((C-N) "‌")  ; zero-width non-joiner (ZWNJ, U+200C)
-    ((S-\ ) "‌") ; zero-width non-joiner (ZWNJ, U+200C)
+    ; zero-width joiner (ZWJ, U+200D)
+    ((C-J) "‍")
+    ; zero-width non-joiner (ZWNJ, U+200C)
+    ((C-N) "‌")
+    ((S-\ ) "‌")
 
     ;; Bi-directional text
-    ((C-L) "‎") ; left-to-right mark (LRM, U+200E)
-    ((C-R) "‏") ; right-to-left mark (RLM, U+200F)
+    ; left-to-right mark (LRM, U+200E)
+    ((C-L) "‎")
+    ; right-to-left mark (RLM, U+200F)
+    ((C-R) "‏")
 ))
 
 (state
