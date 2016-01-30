@@ -77,12 +77,7 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ; Shortcuts
     ("x" "خ") ; NB!
 
-    ; Hamza
-    ("H" "ء")
-    ; Teh Marbuta
-    ("T" "ة")
-    ; Ligature Lam Alef
-    ("L" "لا")
+    ;; Alef
     ; Alef Madda
     ("A" "آ")
     ; Alef with Fathatan
@@ -92,6 +87,13 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ; Alef Maksura
     ("M" "ى")
 
+    ;; Other letters
+    ; Hamza
+    ("H" "ء")
+    ; Teh Marbuta
+    ("T" "ة")
+    ; Lam Alef
+    ("L" "لا")
 
     ;; Typography
     ("<<" "«")
