@@ -1,6 +1,6 @@
 ;; -*- mode: lisp; -*-
+;; fa-pre.mim -- Persian input method using prefix modifiers
 
-;; fa-dmg.mim -- Input method for Farsi with prefix modifiers
 
 ;; Author: Stefan Fischer
 ;; License: MIT
