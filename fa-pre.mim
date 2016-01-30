@@ -123,6 +123,11 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ("#8" "8")
     ("#9" "9")
     ("#0" "0")
+    ; Operators
+    ("#/" "÷")
+    ("#*" "×")
+    ("#-" "−")
+    ("#," "٬") ; Arabic thousands separator (U+066C)
 
     ;; Punctuation
     ; Persian
