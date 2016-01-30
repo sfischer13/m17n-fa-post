@@ -22,15 +22,16 @@
 ;; OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ;; SOFTWARE.
 
-;; Author: Stefan Fischer
-;; License: MIT
-;; Source: https://github.com/sfischer13/m17n-fa-dmg
+(input-method fa pre)
 
-(input-method fa dmg)
+(description (_ "Persian input method using prefix modifiers.
+It is based on the transliteration scheme of the Deutsche Morgenländische Gesellschaft [1] and the Encyclopædia Iranica [2].
+For a description of the layout, have a look at the README [3] and Wikipedia [4].
 
-(description (_"Farsi input method with prefix modifiers.
-
-For a description of the layout, see https://github.com/sfischer13/m17n-fa-dmg.
+[1] https://en.wikipedia.org/wiki/Deutsche_Morgenl%C3%A4ndische_Gesellschaft
+[2] https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Iranica
+[3] https://github.com/sfischer13/m17n-fa-pre/README.md
+[4] https://en.wikipedia.org/wiki/Romanization_of_Persian
 "))
 
 (title "ف")
