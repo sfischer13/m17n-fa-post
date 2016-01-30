@@ -1,4 +1,3 @@
-;; -*- mode: lisp; -*-
 ;; fa-pre.mim -- Persian input method using prefix modifiers
 
 ;; The MIT License (MIT)
@@ -142,4 +141,11 @@ For a description of the layout, see https://github.com/sfischer13/m17n-fa-dmg.
     ((C-R) "‏") ; right-to-left mark (RLM, U+200F)
 ))
 
-(state (init (default)))
+(state
+  (init
+    (default)))
+
+;; Local Variables:
+;; coding: utf-8
+;; mode: lisp
+;; End:
