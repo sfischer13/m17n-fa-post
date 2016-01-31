@@ -1,6 +1,8 @@
-# Persian input method for m17n using prefix modifiers
+# Persian m17n
 
 ## Summary
+
+A Persian input method for m17n using prefix modifiers.
 
 It is based on the schemes of the [Deutsche Morgenländische Gesellschaft](https://en.wikipedia.org/wiki/Deutsche_Morgenl%C3%A4ndische_Gesellschaft), the [Encyclopædia Iranica](https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Iranica), and the [Hans Wehr transliteration](https://en.wikipedia.org/wiki/Hans_Wehr_transliteration) system. For a description of the layout, have a look at the [README](https://github.com/sfischer13/m17n-fa-pre/blob/master/README.md) and [Wikipedia](https://en.wikipedia.org/wiki/Romanization_of_Persian).
 
