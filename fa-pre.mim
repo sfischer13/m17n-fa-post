@@ -100,6 +100,21 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ; Lam Alef
     ("L" "لا")
 
+    ;; Punctuation
+    ("," "،")
+    (",," ",")
+    (";" "؛")
+    (";;" ";")
+    ("?" "؟")
+    ("??" "?")
+    ("%" "٪")
+    ("%%" "%")
+    ("*" "٭")
+    ("**" "*")
+    ; Tatweel
+    ("_" "ـ")
+    ("__" "_")
+
     ;; Typography
     ("<<" "«")
     (">>" "»")
@@ -130,29 +145,14 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ("#8" "8")
     ("#9" "9")
     ("#0" "0")
-    ; Operators
-    ("#/" "÷")
-    ("#*" "×")
-    ("#-" "−")
-    ("#," "٬") ; Arabic thousands separator (U+066C)
-
-    ;; Punctuation
-    ; Persian
-    ("," "،")
-    (";" "؛")
-    ("?" "؟")
-    ("%" "٪")
-    ("*" "٭") ; Arabic star
-    ("_" "ـ") ; Tatweel
-    ; European
-    ("#," ",")
-    ("#;" ";")
-    ("#?" "?")
-    ("#%" "%")
-    ("#*" "*")
-    ("#_" "_")
 
     ;; Control characters
+    ;; Symbols
+    ; Mathematical
+    (":/" "÷")
+    (":*" "×")
+    (":-" "−")
+    (":," "٬") ; Arabic thousands separator (U+066C)
     ; zero-width joiner (ZWJ, U+200D)
     ((C-J) "‍")
     ; zero-width non-joiner (ZWNJ, U+200C)
