@@ -93,7 +93,12 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ; Teh Marbuta
     ("T" "ة")
 
-    ;; Letter combinations
+    ;; Easier alternatives without caret
+    ("G" "ج")
+    ("C" "چ")
+    ("Z" "ژ")
+    ("S" "ش")
+
     ("U" "او")
     ("I" "ای")
     ("X" "خو")
