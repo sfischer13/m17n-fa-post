@@ -107,6 +107,13 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ("Z" "ژ")
     ("S" "ش")
 
+    ;; Various (easier) alternatives
+    ("a" "ا") ; Alef
+    ("o" "آ") ; Alef Madda
+    ("x" "خ") ; common transliteration
+    ("E" "ع") ; visual similarity
+    ("u" "و") ; vocalic alternative
+    ("i" "ی") ; vocalic alternative
 
     ;; Shortcuts for combinations
     ("U" "او")
