@@ -71,25 +71,26 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ("h" "ه")
     ("v" "و")
     ("y" "ی")
-    ; Arabic variants
+
+    ;; Arabic variants
     ("K" "ك")
     ("Y" "ي")
-    ; Shortcuts
-    ("x" "خ") ; NB!
 
-    ;; Alef
+    ;; Alef variants
     ; Alef Madda
     ("A" "آ")
-    ; Alef with Fathatan
+    ; Alef Maksura
+    ("M" "ى")
+    ; Alef + Fathatan
     ("N" "اً")
     ; Alef Wasla
     ("W" "ٱ")
-    ; Alef Maksura
-    ("M" "ى")
 
-    ;; Other letters
+    ;; Additional letters
     ; Hamza
     ("H" "ء")
+    ; Lam Alef ligature
+    ("L" "لا")
     ; Teh Marbuta
     ("T" "ة")
 
@@ -99,11 +100,12 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ("Z" "ژ")
     ("S" "ش")
 
+
+    ;; Shortcuts for combinations
     ("U" "او")
     ("I" "ای")
     ("X" "خو")
-    ; Lam Alef
-    ("L" "لا")
+    ("e" "هٔ") ; Ezafe
 
     ;; Diacritics
     ; Fatha
