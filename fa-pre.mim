@@ -38,29 +38,35 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
 
 (map
   (default
-    ;; Letters
-    ("a" "ا")
+    ;; Alphabet
+    ("'" "ا")
+    ("''" "'") ; literal '
     ("b" "ب")
     ("p" "پ")
     ("t" "ت")
     ("-s" "ث")
+    ("-t" "ث")
     ("^g" "ج")
+    ("j" "ج")
     ("^c" "چ")
     (".h" "ح")
-    ("-h" "خ") ; NB!
+    ("-h" "خ") ; N.B. ḫ
+    ("-k" "خ")
     ("d" "د")
     ("-z" "ذ")
+    ("-d" "ذ")
     ("r" "ر")
     ("z" "ز")
     ("^z" "ژ")
     ("s" "س")
     ("^s" "ش")
     (".s" "ص")
-    (":z" "ض") ; NB!
+    (":z" "ض") ; N.B. ż
+    (".d" "ض")
     (".t" "ط")
     (".z" "ظ")
-    ("E" "ع") ; NB!
-    (".g" "غ")
+    ("\"" "ع")
+    ("\"\"" "\"") ; literal "
     ("f" "ف")
     ("q" "ق")
     ("k" "ک")
@@ -70,6 +76,7 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ("n" "ن")
     ("h" "ه")
     ("v" "و")
+    ("w" "و")
     ("y" "ی")
 
     ;; Arabic variants
