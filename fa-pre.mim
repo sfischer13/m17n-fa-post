@@ -122,7 +122,7 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ("---" "—")
     ("..." "…")
 
-    ;; Mathematics
+    ;; Numbers
     ; Persian
     ("1" "۱")
     ("2" "۲")
@@ -135,16 +135,20 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ("9" "۹")
     ("0" "۰")
     ; European
-    ("#1" "1")
-    ("#2" "2")
-    ("#3" "3")
-    ("#4" "4")
-    ("#5" "5")
-    ("#6" "6")
-    ("#7" "7")
-    ("#8" "8")
-    ("#9" "9")
-    ("#0" "0")
+    ((A-1) "1")
+    ((A-2) "2")
+    ((A-3) "3")
+    ((A-4) "4")
+    ((A-5) "5")
+    ((A-6) "6")
+    ((A-7) "7")
+    ((A-8) "8")
+    ((A-9) "9")
+    ((A-0) "0")
+    ; Arabic
+    (":4" "٤")
+    (":5" "٥")
+    (":6" "٦")
 
     ;; Control characters
     ;; Symbols
