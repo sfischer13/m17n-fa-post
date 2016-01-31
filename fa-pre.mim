@@ -157,6 +157,8 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     (":*" "×")
     (":-" "−")
     (":," "٬") ; Arabic thousands separator (U+066C)
+
+    ;; (Non-)Joiners
     ; zero-width joiner (ZWJ, U+200D)
     ((C-J) "‍")
     ; zero-width non-joiner (ZWNJ, U+200C)
@@ -166,8 +168,37 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     ;; Bi-directional text
     ; left-to-right mark (LRM, U+200E)
     ((C-L) "‎")
+    ("!LRM" "‎")
     ; right-to-left mark (RLM, U+200F)
     ((C-R) "‏")
+    ("!RLM" "‏")
+
+    ; left-to-right embedding
+    ("!LRE" "‪")
+
+    ; right-to-left embedding
+    ("!RLE" "‫")
+
+    ; left-to-right override
+    ("!LRO" "‭")
+
+    ; right-to-left override
+    ("!RLO" "‮")
+
+    ; pop directional formatting
+    ("!PDF" "‬")
+
+    ; left-to-right isolate
+    ("!LRI" "⁦")
+
+    ; right-to-left isolate
+    ("!RLI" "⁧")
+
+    ; first strong isolate
+    ("!FSI" "⁨")
+
+    ; pop directional isolate
+    ("!PDI" "⁩")
 ))
 
 (state
