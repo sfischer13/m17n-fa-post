@@ -150,13 +150,16 @@ For a description of the layout, have a look at the README [3] and Wikipedia [4]
     (":5" "٥")
     (":6" "٦")
 
-    ;; Control characters
     ;; Symbols
     ; Mathematical
     (":/" "÷")
     (":*" "×")
     (":-" "−")
     (":," "٬") ; Arabic thousands separator (U+066C)
+
+    ;; Space
+    ; non-breaking space (NBSP, U+00A0)
+    ((G-\ ) " ")
 
     ;; (Non-)Joiners
     ; zero-width joiner (ZWJ, U+200D)
