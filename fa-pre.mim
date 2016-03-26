@@ -67,8 +67,8 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     (".z" "ظ")
     ("\"" "ع")
     ("\"\"" "\"") ; literal "
-    (".g" "ﻍ")
-    ("-g" "ﻍ")
+    (".g" "غ")
+    ("-g" "غ")
     ("f" "ف")
     ("q" "ق")
     ("k" "ک")
