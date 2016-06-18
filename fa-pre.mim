@@ -65,7 +65,7 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     (".d" "ض")
     (".t" "ط")
     (".z" "ظ")
-    ("\"" "ع")
+    ("\"" "ع") ; N.B. ʿ
     ("\"\"" "\"") ; literal "
     (".g" "غ")
     ("-g" "غ")
@@ -97,7 +97,7 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
 
     ;; Additional letters
     ; Hamza
-    ("'" "ء")
+    ("'" "ء") ; N.B. ʾ
     ("''" "'") ; literal '
     ; Lam Alef ligature
     ("L" "لا")
@@ -116,7 +116,7 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("E" "ع") ; visual similarity
     ("u" "و") ; vocalic alternative
     ("i" "ی") ; vocalic alternative
-    ("H" "ء")
+    ("H" "ء") ; H is for Hamza
 
     ;; Shortcuts for combinations
     ("U" "او")
