@@ -1,5 +1,31 @@
 # Persian m17n
 
+
+- [Summary](#summary)
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [Ubuntu + IBus](#ubuntu--ibus)
+  - [Warnings](#warnings)
+- [Usage Samples](#usage-samples)
+  - [Alphabet](#alphabet)
+    - [Simple Example](#simple-example)
+    - [Complex Example](#complex-example)
+  - [Numbers](#numbers)
+  - [Arabic Alternatives](#arabic-alternatives)
+    - [Arabic Letters](#arabic-letters)
+    - [Arabic Numbers](#arabic-numbers)
+  - [Diacritics](#diacritics)
+  - [Symbols](#symbols)
+  - [BIDI](#bidi)
+    - [ZWNJ](#zwnj)
+    - [ZWJ](#zwj)
+- [Reference](#reference)
+  - [Alphabet](#alphabet-1)
+  - [Diacritics](#diacritics-1)
+  - [Numbers](#numbers-1)
+  - [Symbols](#symbols-1)
+  - [BIDI](#bidi-1)
+
 ## Summary
 
 A Persian input method for m17n using prefix modifiers. For a description of the layout, have a look at the [README](https://github.com/sfischer13/m17n-fa-pre/blob/master/README.md) and [Wikipedia](https://en.wikipedia.org/wiki/Romanization_of_Persian).
