@@ -159,3 +159,14 @@ For a complete reference, check the source of [fa-pre.mim](https://github.com/sf
 |	ه	|	he		|	h	|		|		|
 |	ی	|	ye			|	y	|		|		|
 |	ي	|		|	Y	|		|	Arabic	|
+
+### Diacritics
+
+
+### Numbers
+
+### Symbols
+
+
+### BIDI
+
