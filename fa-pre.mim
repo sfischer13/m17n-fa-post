@@ -136,8 +136,8 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("#o" "ُ") ; by pronunciation
     ; Madda
     ("#m" "ٓ")
-    ; Khanjariyah/Dagger Alef (kh = x)
-    ("#x" "ٰ")
+    ; Khanjariyah/Dagger Alef
+    ("#x" "ٰ") ; Kh = x
     ; Sukun
     ("#s" "ْ")
     ; Fathatan
