@@ -83,6 +83,9 @@ Spaces are added for clarification.
 
 `(C-J)` means `Ctrl` key plus `J` key.
 
+- Output: `اا ا‍ا`
+- Input: `aa a(C-J)a`
+
 ## Reference
 
 For a complete reference, check the source of [fa-pre.mim](https://github.com/sfischer13/m17n-fa-pre/blob/master/fa-pre.mim). There is a lot more to discover: shortcuts, typography, bi-directional text, …
