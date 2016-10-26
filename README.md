@@ -1,6 +1,7 @@
 # Persian m17n
 
 
+
 - [Summary](#summary)
 - [Installation](#installation)
   - [Requirements](#requirements)
@@ -20,11 +21,6 @@
     - [Arabic Letters](#arabic-letters)
     - [Arabic Numbers](#arabic-numbers)
 - [Reference](#reference)
-  - [Alphabet](#alphabet)
-  - [Diacritics](#diacritics-1)
-  - [Numbers](#numbers-1)
-  - [Symbols](#symbols-1)
-  - [BIDI](#bidi-1)
 
 
 ## Summary
@@ -120,59 +116,6 @@ Diacritics start with `#`.
 
 ## Reference
 
-For a complete list, check the content of [fa-pre.mim](https://github.com/sfischer13/m17n-fa-pre/blob/master/fa-pre.mim). There is a lot more to discover: shortcuts, typography, bi-directional text, …
+There is a lot more to discover: shortcuts, typography, bi-directional text, …
 
-### Alphabet
-
-|	Letter	|	Name	|	m17n-fa-pre	|	Alternative	|	Comment	|
-|	---	|	---	|	---	|	---	|	---	|
-|	ء	|	hamza	|	'	|		|	type twice for literal '	|
-|	ا	|	alef	|	a	|		|		|
-|	آ	|		|	A	|	a #m		|	madda	|
-|	ى	|		|	M	|		|	maksura	|
-|	اً	|		|	N	|		|	nunation	|
-|	ٱ	|		|	A	|	W		|	wasla	|
-|	ب	|	be		|	b	|		|		|
-|	پ	|	pe		|	p	|		|		|
-|	ت	|	te		|	t	|		|		|
-|	ث	|	se		|	-s	|	-t	|		|
-|	ج	|	jim	|	^g		|	j	|		|
-|	چ	|	che	|	^c	|		|		|
-|	ح	|	he	|	.h	|		|		|
-|	خ	|	khe	|	-h	|	-k	|		|
-|	د	|	dal	|	d	|		|		|
-|	ذ	|	zal	|	-z	|	-d	|		|
-|	ر	|	re	|	r	|		|		|
-|	ز	|	ze	|	z	|		|		|
-|	ژ	|	zhe	|	^z	|		|		|
-|	س	|	sin	|	s	|		|		|
-|	ش	|	shin	|	^s	|		|		|
-|	ص	|	sad	|	.s	|		|		|
-|	ض	|	zad	|	:z	|	.d	|		|
-|	ط	|	ta	|	.t	|		|		|
-|	ظ	|	za	|	.z	|		|		|
-|	ع	|	eyn	|	"	|		|	type twice for literal "	|
-|	غ	|	geyn	|	.g	|	-g	|		|
-|	ف	|	fe	|	f	|		|		|
-|	ق	|	qaf	|	q	|		|		|
-|	ک	|	kaf	|	k	|		|	Arabic	|
-|	ك	|		|	K	|		|		|
-|	گ	|	gaf	|	g	|		|		|
-|	ل	|	lam	|	l	|		|		|
-|	م	|	mim	|	m	|		|		|
-|	ن	|	nun	|	n	|		|		|
-|	و	|	vav	|	v	|	w	|		|
-|	ه	|	he		|	h	|		|		|
-|	ی	|	ye			|	y	|		|		|
-|	ي	|		|	Y	|		|	Arabic	|
-
-### Diacritics
-
-
-### Numbers
-
-### Symbols
-
-
-### BIDI
-
+The [reference](https://github.com/sfischer13/m17n-fa-pre/blob/master/reference.md) contains a complete documentation of the functionality of `m17n-fa-pre`. If you're interested in acheck the content of [fa-pre.mim](https://github.com/sfischer13/m17n-fa-pre/blob/master/fa-pre.mim). 
