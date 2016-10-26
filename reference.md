@@ -1,3 +1,5 @@
+# Reference (m17n-fa-pre)
+
 
 - [Reference (m17n-fa-pre)](#reference-m17n-fa-pre)
   - [Alphabet](#alphabet)
@@ -6,8 +8,6 @@
   - [Symbols](#symbols)
   - [BIDI](#bidi)
 
-
-# Reference (m17n-fa-pre)
 
 ## Alphabet
 
