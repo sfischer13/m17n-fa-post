@@ -45,7 +45,7 @@ You need a recent Linux system with an input method (IBus, UIM, SCIM) that suppo
 sudo apt-get install ibus-m17n
 git clone https://github.com/sfischer13/m17n-fa-pre.git
 cd m17n-fa-pre
-make ibus
+make
 ```
 
 ### Potential Problems
@@ -110,7 +110,7 @@ Diacritics start with `#`.
 #### Arabic Letters
 
 - Output: `ك ي`
-- Input: `K Y`
+- Input: `:k :y`
 
 #### Arabic Numbers
 
