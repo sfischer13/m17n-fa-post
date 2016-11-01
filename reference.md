@@ -78,6 +78,10 @@
 
 ### Arabic
 
+Letter | `m17n` | Name
+------ | ------ | ----
+‎ك     | :k     | Arabic kaf
+‎ي     | :y     | Arabic ye
 
 ### Diacritics
 
