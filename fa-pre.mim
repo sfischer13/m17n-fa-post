@@ -41,6 +41,8 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
 (map
   (default
     ;; Alphabet
+    ("'" "ء")  ; N.B. ʾ
+    ("''" "'") ; literal '
     ("a" "ا")
     ("b" "ب")
     ("p" "پ")
@@ -48,8 +50,10 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("-s" "ث")
     ("-t" "ث")
     ("^g" "ج")
+    ("G" "ج")
     ("j" "ج")
     ("^c" "چ")
+    ("C" "چ")
     (".h" "ح")
     ("-h" "خ") ; N.B. ḫ
     ("-k" "خ")
@@ -59,8 +63,10 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("r" "ر")
     ("z" "ز")
     ("^z" "ژ")
+    ("Z" "ژ")
     ("s" "س")
     ("^s" "ش")
+    ("S" "ش")
     (".s" "ص")
     (":z" "ض") ; N.B. ż
     (".d" "ض")
@@ -97,19 +103,10 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("W" "ٱ")
 
     ;; Additional letters
-    ; Hamza
-    ("'" "ء") ; N.B. ʾ
-    ("''" "'") ; literal '
     ; Lam Alef ligature
     ("L" "لا")
     ; Teh Marbuta
     ("T" "ة")
-
-    ;; Easier alternatives without caret
-    ("G" "ج")
-    ("C" "چ")
-    ("Z" "ژ")
-    ("S" "ش")
 
     ;; Various (easier) alternatives
     ("o" "آ") ; Alef Madda
