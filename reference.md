@@ -180,6 +180,12 @@ Symbol | `m17n` | Name
 
 ### Overrides
 
+In general, *overrides* should be avoided.
+
+BIDI | `m17n` | Name
+---- | ------ | ----------------------
+LRO  | !LRO   | left-to-right override
+RLO  | !RLO   | right-to-left override
 
 ### Pops
 
