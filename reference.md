@@ -1,5 +1,8 @@
 # Reference (m17n-fa-pre)
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 
 - [Letters](#letters)
 - [Diacritics](#diacritics)
@@ -11,6 +14,8 @@
   - [Punctuation](#punctuation)
   - [Mathematics](#mathematics)
 - [BIDI](#bidi)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 
 ## Letters
