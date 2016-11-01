@@ -79,6 +79,7 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("f" "ف")
     ("q" "ق")
     ("k" "ک")
+    (":k" "ك") ; Arabic
     ("g" "گ")
     ("l" "ل")
     ("m" "م")
@@ -87,11 +88,8 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("v" "و")
     ("w" "و")
     ("y" "ی")
-
-    ;; Arabic variants
-    ("K" "ك")
-    ("Y" "ي")
-
+    (":y" "ي") ; Arabic
+    
     ;; Alef variants
     ; Alef Madda
     ("A" "آ")
