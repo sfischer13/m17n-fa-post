@@ -178,7 +178,7 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("..." "…")
 
     ;; Numbers
-    ; Persian
+    ; Perso-Arabic
     ("1" "۱")
     ("2" "۲")
     ("3" "۳")
@@ -189,7 +189,7 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("8" "۸")
     ("9" "۹")
     ("0" "۰")
-    ; European
+    ; Western Arabic
     ((A-1) "1")
     ((A-2) "2")
     ((A-3) "3")
@@ -200,13 +200,11 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ((A-8) "8")
     ((A-9) "9")
     ((A-0) "0")
-    ; Arabic
+    ; Eastern-Arabic
     (":4" "٤")
     (":5" "٥")
     (":6" "٦")
-
-    ;; Symbols
-    ; Mathematical
+    ; Operators
     (":/" "÷")
     (":*" "×")
     (":-" "−")
@@ -235,31 +233,28 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ((C-R) "‏")
     ("!RLM" "‏")
 
-    ; left-to-right embedding
+    ; left-to-right embedding (LRE, U+202A)
     ("!LRE" "‪")
-
-    ; right-to-left embedding
+    ; right-to-left embedding (RLE, U+202B)
     ("!RLE" "‫")
 
-    ; left-to-right override
+    ; left-to-right override (LRO, U+202D)
     ("!LRO" "‭")
-
-    ; right-to-left override
+    ; right-to-left override (RLO, U+202E)
     ("!RLO" "‮")
 
-    ; pop directional formatting
+    ; pop directional formatting (PDF, U+202C)
     ("!PDF" "‬")
 
-    ; left-to-right isolate
+    ; left-to-right isolate (LRI, U+2066)
     ("!LRI" "⁦")
-
-    ; right-to-left isolate
+    ; right-to-left isolate (RLI, U+2067)
     ("!RLI" "⁧")
 
-    ; first strong isolate
+    ; first strong isolate (FSI, U+2068)
     ("!FSI" "⁨")
 
-    ; pop directional isolate
+    ; pop directional isolate (PDI, U+2069)
     ("!PDI" "⁩")
 ))
 
