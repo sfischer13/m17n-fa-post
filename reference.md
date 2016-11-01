@@ -136,6 +136,11 @@ Number | `m17n`
 
 ### Mathematical
 
+Symbol | `m17n` | Name
+------ | ------ | ----
+÷      | :/     |
+×      | :*     |
+−      | :-     |
 
 ### Cultural
 
