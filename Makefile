@@ -1,6 +1,10 @@
-local:
-	mkdir -p ~/.m17n.d/
-	cp fa-pre.mim ~/.m17n.d/
+all: copy ibus
 
-ibus: local
-	ibus-daemon -drx --cache refresh
+copy:
+	mkdir -p ~/.m17n.d/
+	cp *.mim ~/.m17n.d/
+	mkdir -p ~/.m17n.d/icons
+	cp icons/*.png  ~/.m17n.d/icons/
+
+ibus:
+	ibus restart
