@@ -31,50 +31,44 @@
 
 ### Persian
 
+Letter | `m17n`     | Name 
+------ | ---------- | -----
+‎ء     | '          | hamze
+‎ا     | a          | alef 
+‎ب     | b          | be   
+‎پ     | p          | pe   
+‎ت     | t          | te   
+‎ث     | -s / -t    | se   
+‎ج     | ^g / G / j | jim  
+‎چ     | ^c / C     | che  
+‎ح     | .h         | he   
+‎خ     | -h / -k    | khe  
+‎د     | d          | dal  
+‎ذ     | -z / -d    | zal  
+‎ر     | r          | re   
+‎ز     | z          | ze   
+‎ژ     | ^z         |      
+‎س     | s          | sin  
+‎ش     | ^s / S     | shin 
+‎ص     | .s         | sad  
+‎ض     | :z / .d    | zad  
+‎ط     | .t         | ta   
+‎ظ     | .z         | za   
+‎ع     | "          | eyn  
+‎غ     | .g / -g    | geyn 
+‎ف     | f          | fe   
+‎ق     | q          | qaf  
+‎ک     | k          | kaf  
+‎گ     | g          | gaf  
+‎ل     | l          | lam  
+‎م     | m          | mim  
+‎ن     | n          | nun  
+‎و     | v / w      | vav  
+‎ه     | h          | he   
+‎ی     | y          | ye   
 
 ### Alef
 
-| Letter | Name  | `m17n-fa-pre` | Alternative | Comment                  |
-|--------|-------|---------------|-------------|--------------------------|
-| ء      | hamza | '             |             | type twice for literal ' |
-| ا      | alef  | a             |             |                          |
-| آ      |       | A             | a #m        | madda                    |
-| ى      |       | M             |             | maksura                  |
-| اً      |       | N             |             | nunation                 |
-| ٱ      |       | A             | W           | wasla                    |
-| ب      | be    | b             |             |                          |
-| پ      | pe    | p             |             |                          |
-| ت      | te    | t             |             |                          |
-| ث      | se    | -s            | -t          |                          |
-| ج      | jim   | ^g            | j           |                          |
-| چ      | che   | ^c            |             |                          |
-| ح      | he    | .h            |             |                          |
-| خ      | khe   | -h            | -k          |                          |
-| د      | dal   | d             |             |                          |
-| ذ      | zal   | -z            | -d          |                          |
-| ر      | re    | r             |             |                          |
-| ز      | ze    | z             |             |                          |
-| ژ      | zhe   | ^z            |             |                          |
-| س      | sin   | s             |             |                          |
-| ش      | shin  | ^s            |             |                          |
-| ص      | sad   | .s            |             |                          |
-| ض      | zad   | :z            | .d          |                          |
-| ط      | ta    | .t            |             |                          |
-| ظ      | za    | .z            |             |                          |
-| ع      | eyn   | "             |             | type twice for literal " |
-| غ      | geyn  | .g            | -g          |                          |
-| ف      | fe    | f             |             |                          |
-| ق      | qaf   | q             |             |                          |
-| ک      | kaf   | k             |             | Arabic                   |
-| ك      |       | K             |             |                          |
-| گ      | gaf   | g             |             |                          |
-| ل      | lam   | l             |             |                          |
-| م      | mim   | m             |             |                          |
-| ن      | nun   | n             |             |                          |
-| و      | vav   | v             | w           |                          |
-| ه      | he    | h             |             |                          |
-| ی      | ye    | y             |             |                          |
-| ي      |       | Y             |             | Arabic                   |
 Letter | `m17n`   | Name
 ------ | -------- | ----
 
