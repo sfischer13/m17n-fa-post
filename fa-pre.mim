@@ -43,6 +43,7 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ;; Alphabet
     ("'" "ء")  ; N.B. ʾ
     ("''" "'") ; literal '
+    ("H" "ء")  ; H is for Hamza
     ("a" "ا")
     ("b" "ب")
     ("p" "پ")
@@ -57,6 +58,7 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     (".h" "ح")
     ("-h" "خ") ; N.B. ḫ
     ("-k" "خ")
+    ("x" "خ") ; common transliteration
     ("d" "د")
     ("-z" "ذ")
     ("-d" "ذ")
@@ -74,22 +76,26 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     (".z" "ظ")
     ("\"" "ع") ; N.B. ʿ
     ("\"\"" "\"") ; literal "
+    ("E" "ع") ; visual similarity
     (".g" "غ")
     ("-g" "غ")
     ("f" "ف")
     ("q" "ق")
     ("k" "ک")
-    (":k" "ك") ; Arabic
+    (":k" "ك") ; Arabic variant
     ("g" "گ")
     ("l" "ل")
     ("m" "م")
     ("n" "ن")
     ("h" "ه")
     ("v" "و")
+    ("u" "و") ; vocalic alternative
     ("w" "و")
     ("y" "ی")
-    (":y" "ي") ; Arabic
+    ("i" "ی") ; vocalic alternative
+    (":y" "ي") ; Arabic variant
     
+
     ;; Alef variants
     ; Alef Madda
     ("A" "آ")
@@ -108,15 +114,10 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
 
     ;; Various (easier) alternatives
     ("o" "آ") ; Alef Madda
-    ("x" "خ") ; common transliteration
-    ("E" "ع") ; visual similarity
-    ("u" "و") ; vocalic alternative
-    ("i" "ی") ; vocalic alternative
-    ("H" "ء") ; H is for Hamza
 
     ;; Shortcuts for combinations
-    ("U" "او")
     ("I" "ای")
+    ("U" "او")
     ("X" "خو")
     ("e" "هٔ") ; Ezafe
 
