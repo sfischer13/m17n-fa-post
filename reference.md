@@ -85,6 +85,11 @@ Letter | `m17n` | Name
 
 ### Diacritics
 
+Letter | `m17n` | Name
+------ | ------ | ----
+َ       | #a     | Fathah
+ِ       | #e     | Kasrah
+ُ       | #o     | Dammah
 
 ## Numbers
 
