@@ -183,3 +183,7 @@ Symbol | `m17n` | Name
 
 ### Pops
 
+BIDI | `m17n` | Name
+---- | ------ | --------------------------
+PDF  | !PDF   | pop directional formatting
+PDI  | !PDI   | pop directional isolate
