@@ -177,6 +177,13 @@ Symbol | `m17n` | Name
 
 ### Isolates
 
+*Isolates* were created as a replacement of *embeddings*.
+
+BIDI | `m17n` | Name
+---- | ------ | -----------------------
+LRI  | !LRI   | left-to-right isolate
+RLI  | !RLI   | right-to-left isolate
+FSI  | !FSI   | first strong isolate
 
 ### Overrides
 
