@@ -43,7 +43,6 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ;; Alphabet
     ("'" "ء")  ; N.B. ʾ
     ("''" "'") ; literal '
-    ("H" "ء")  ; H is for Hamza
     ("a" "ا")
     ("b" "ب")
     ("p" "پ")
@@ -98,7 +97,7 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
 
     ;; Alef variants
     ; Alef Madda
-    ("A" "آ")
+    ("o" "آ")
     ; Alef Maksura
     ("M" "ى")
     ; Alef + Fathatan
@@ -106,6 +105,12 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ; Alef Wasla
     ("W" "ٱ")
 
+    ;; Hamze
+    ("A" "أ")
+    ("O" "إ")
+    ("V" "ؤ")
+    ("Y" "ئ")
+    
     ;; Additional letters
     ; Lam Alef ligature
     ("L" "لا")
@@ -119,7 +124,7 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("I" "ای")
     ("U" "او")
     ("X" "خو")
-    ("e" "هٔ") ; Ezafe
+    ("H" "هٔ") ; Ezafe
 
     ;; Diacritics
     ; Fatha
@@ -149,8 +154,8 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ; Tashdid (Shadda)
     ("#t" "ّ")
     ; Hamza
-    ("#h" "ٔ")
-    ("#H" "ٕ")
+    ("#h" "ٕ")
+    ("#H" "ٔ")
 
     ;; Punctuation
     ("," "،")
