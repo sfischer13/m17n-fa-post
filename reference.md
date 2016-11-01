@@ -171,6 +171,12 @@ Symbol | `m17n` | Name
 
 ### Marks
 
+BIDI | `m17n` | Name
+---- | ------ | ------------------
+LRM  | !LRM   | left-to-right mark
+"    | C-l    | "
+RLM  | !RLM   | right-to-left mark
+"    | C-r    | "
 
 ### Embeddings
 
