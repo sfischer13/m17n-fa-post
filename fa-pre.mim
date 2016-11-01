@@ -224,6 +224,10 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ((S-\ ) "‌")
 
     ;; Bi-directional text
+
+    ; Arabic letter mark (ALM, U+061C)
+    ("!ALM" "؜")
+ 
     ; left-to-right mark (LRM, U+200E)
     ((C-L) "‎")
     ("!LRM" "‎")
