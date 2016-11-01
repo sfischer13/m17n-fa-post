@@ -135,6 +135,13 @@ Number | `m17n`
 
 ### Punctuation
 
+Symbol | `m17n` | Name
+------ | ------ | ----
+،      | ,      | comma
+‎؛     | ;      | semicolon
+‎؟     | ?      | question mark
+٪      | %      | percent sign
+‎٭     | *      | Arabic star
 
 ### Typography
 
