@@ -224,8 +224,8 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ;; Bi-directional text
 
     ; Arabic letter mark (ALM, U+061C)
+    ((C-m) "؜")
     ("!ALM" "؜")
- 
     ; left-to-right mark (LRM, U+200E)
     ((C-L) "‎")
     ("!LRM" "‎")
@@ -237,7 +237,6 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("!LRE" "‪")
     ; right-to-left embedding (RLE, U+202B)
     ("!RLE" "‫")
-
     ; left-to-right override (LRO, U+202D)
     ("!LRO" "‭")
     ; right-to-left override (RLO, U+202E)
