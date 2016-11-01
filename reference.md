@@ -133,6 +133,13 @@ Number | `m17n`
 
 ### Typography
 
+Symbol | `m17n` | Name
+------ | ------ | ----
+«      | <<     |
+»      | >>     |
+–      | --     |
+—      | ---    |
+…      | ...    |
 
 ### Mathematical
 
