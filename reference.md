@@ -5,20 +5,34 @@
 
 
 - [Letters](#letters)
-- [Diacritics](#diacritics)
-- [Numbers](#numbers)
   - [Persian](#persian)
-  - [European](#european)
+  - [Alef](#alef)
   - [Arabic](#arabic)
+  - [Diacritics](#diacritics)
+- [Numbers](#numbers)
+  - [Persian](#persian-1)
+  - [European](#european)
+  - [Arabic](#arabic-1)
 - [Symbols](#symbols)
   - [Punctuation](#punctuation)
-  - [Mathematics](#mathematics)
-- [BIDI](#bidi)
+  - [Typography](#typography)
+  - [Mathematical](#mathematical)
+  - [Cultural](#cultural)
+- [Bi-directional text](#bi-directional-text)
+  - [Marks](#marks)
+  - [Embeddings](#embeddings)
+  - [Isolates](#isolates)
+  - [Overrides](#overrides)
+  - [Pops](#pops)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
-
 ## Letters
+
+### Persian
+
+
+### Alef
 
 | Letter | Name  | `m17n-fa-pre` | Alternative | Comment                  |
 |--------|-------|---------------|-------------|--------------------------|
@@ -62,7 +76,11 @@
 | ی      | ye    | y             |             |                          |
 | ي      |       | Y             |             | Arabic                   |
 
-## Diacritics
+### Arabic
+
+
+### Diacritics
+
 
 ## Numbers
 
@@ -106,4 +124,32 @@ Number | `m17n`
 
 ## Symbols
 
-## BIDI
+### Punctuation
+
+
+### Typography
+
+
+### Mathematical
+
+
+### Cultural
+
+
+## Bi-directional text
+
+
+### Marks
+
+
+### Embeddings
+
+
+### Isolates
+
+
+### Overrides
+
+
+### Pops
+
