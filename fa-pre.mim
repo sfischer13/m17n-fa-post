@@ -217,11 +217,11 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ((G-\ ) " ")
 
     ;; (Non-)Joiners
+    ; zero-width non-joiner (ZWNJ, U+200C)
+    ((S-\ ) "‌")
+    ((C-N) "‌")
     ; zero-width joiner (ZWJ, U+200D)
     ((C-J) "‍")
-    ; zero-width non-joiner (ZWNJ, U+200C)
-    ((C-N) "‌")
-    ((S-\ ) "‌")
 
     ;; Bi-directional text
 
