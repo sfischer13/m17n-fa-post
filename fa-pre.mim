@@ -176,6 +176,8 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("--" "–")
     ("---" "—")
     ("..." "…")
+    ((G-.) "…")
+    ((G-,) "·")
 
     ;; Numbers
     ; Perso-Arabic
