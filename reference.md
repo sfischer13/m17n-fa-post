@@ -174,6 +174,12 @@ Symbol | `m17n` | Name
 
 ### Embeddings
 
+*Embeddings* are being discouraged in favor of *isolates*.
+
+BIDI | `m17n` | Name
+---- | ------ | -----------------------
+LRE  | !LRE   | left-to-right embedding
+RLE  | !RLE   | right-to-left embedding
 
 ### Isolates
 
