@@ -75,6 +75,8 @@
 | ه      | he    | h             |             |                          |
 | ی      | ye    | y             |             |                          |
 | ي      |       | Y             |             | Arabic                   |
+Letter | `m17n`   | Name
+------ | -------- | ----
 
 ### Arabic
 
