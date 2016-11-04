@@ -1,5 +1,4 @@
 ;; fa-pre.mim -- Persian input method using prefix modifiers
-
 ;; The MIT License (MIT)
 ;;
 ;; Copyright (c) 2015-2016 Stefan Fischer
@@ -26,22 +25,23 @@
 
 (description (_ "Persian input method using prefix modifiers.
 
-It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], the Encyclopædia Iranica [2], and the Hans Wehr transliteration system [3]. For a description of the layout, have a look at the README [4], the reference [5] and Wikipedia [6].
+For a description of the layout, have a look at the reference [1], the examples in the README [2], and the  Wikipedia article about romanization of Persian [3]. In general, this input method is based on the schemes of the Deutsche Morgenländische Gesellschaft [4], the Encyclopædia Iranica [5], and the Hans Wehr transliteration system [6].
 
-[1] https://en.wikipedia.org/wiki/Deutsche_Morgenl%C3%A4ndische_Gesellschaft
-[2] https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Iranica
-[3] https://en.wikipedia.org/wiki/Hans_Wehr_transliteration
-[4] https://github.com/sfischer13/m17n-fa-pre/blob/master/README.md
-[5] https://github.com/sfischer13/m17n-fa-pre/blob/master/reference.md
-[6] https://en.wikipedia.org/wiki/Romanization_of_Persian
+[1] https://github.com/sfischer13/m17n-fa-pre/blob/master/reference.md
+[2] https://github.com/sfischer13/m17n-fa-pre/blob/master/README.md
+[3] https://en.wikipedia.org/wiki/Romanization_of_Persian
+[4] https://en.wikipedia.org/wiki/Deutsche_Morgenl%C3%A4ndische_Gesellschaft
+[5] https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Iranica
+[6] https://en.wikipedia.org/wiki/Hans_Wehr_transliteration
 "))
 
 (title "ف")
 
 (map
   (default
-    ;; Alphabet
-    ("'" "ء")  ; N.B. ʾ
+    ;; Letters
+    ; Persian
+    ("'" "ء")
     ("''" "'") ; literal '
     ("a" "ا")
     ("b" "ب")
@@ -55,47 +55,17 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ("^c" "چ")
     ("C" "چ")
     (".h" "ح")
-    ("-h" "خ") ; N.B. ḫ
+    ("-h" "خ")
     ("-k" "خ")
-    ("x" "خ") ; common transliteration
+    ("x" "خ")
     ("d" "د")
     ("-z" "ذ")
     ("-d" "ذ")
-    ("r" "ر")
-    ("z" "ز")
-    ("^z" "ژ")
-    ("Z" "ژ")
-    ("s" "س")
-    ("^s" "ش")
-    ("S" "ش")
-    (".s" "ص")
-    (":z" "ض") ; N.B. ż
-    (".d" "ض")
-    (".t" "ط")
-    (".z" "ظ")
-    ("\"" "ع") ; N.B. ʿ
-    ("\"\"" "\"") ; literal "
-    ("E" "ع") ; visual similarity
-    (".g" "غ")
-    ("-g" "غ")
-    ("f" "ف")
-    ("q" "ق")
-    ("k" "ک")
-    (":k" "ك") ; Arabic variant
-    ("g" "گ")
-    ("l" "ل")
-    ("m" "م")
-    ("n" "ن")
-    ("h" "ه")
-    ("v" "و")
-    ("u" "و") ; vocalic alternative
-    ("w" "و")
-    ("y" "ی")
-    ("i" "ی") ; vocalic alternative
-    (":y" "ي") ; Arabic variant
-    
+   ; Arabic
+    (":k" "ك")
+    (":y" "ي")
 
-    ;; Alef variants
+    ; Alef
     ; Alef Madda
     ("o" "آ")
     ; Alef Maksura
@@ -105,81 +75,53 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ; Alef Wasla
     ("W" "ٱ")
 
-    ;; Hamze
+    ; Hamze
     ("A" "أ")
     ("O" "إ")
     ("V" "ؤ")
     ("Y" "ئ")
-    
-    ;; Additional letters
-    ; Lam Alef ligature
-    ("L" "لا")
+
+    ; Miscellaneous
+    ; Ezafe
+    ("H" "هٔ")
     ; Teh Marbuta
     ("T" "ة")
-
-    ;; Various (easier) alternatives
-    ("o" "آ") ; Alef Madda
-
-    ;; Shortcuts for combinations
+    ; Lam Alef
+    ("L" "لا")
     ("I" "ای")
     ("U" "او")
     ("X" "خو")
-    ("H" "هٔ") ; Ezafe
 
     ;; Diacritics
     ; Fatha
     ("#f" "َ")
-    ("#a" "َ") ; by pronunciation
+    ("#a" "َ")
     ; Kasra
     ("#k" "ِ")
-    ("#e" "ِ") ; by pronunciation
-    ; Dammah
+    ("#e" "ِ")
+    ; Damma
     ("#d" "ُ")
-    ("#o" "ُ") ; by pronunciation
-    ; Madda
-    ("#m" "ٓ")
-    ; Khanjariyah/Dagger Alef
-    ("#x" "ٰ") ; Kh = x
-    ; Sukun
-    ("#s" "ْ")
+    ("#o" "ُ")
     ; Fathatan
     ("#F" "ً")
-    ("#A" "ً") ; by pronunciation
+    ("#A" "ً")
     ; Kasratan
     ("#K" "ٍ")
-    ("#E" "ٍ") ; by pronunciation
+    ("#E" "ٍ")
     ; Dammatan
     ("#D" "ٌ")
-    ("#O" "ٌ") ; by pronunciation
-    ; Tashdid (Shadda)
-    ("#t" "ّ")
+    ("#O" "ٌ")
     ; Hamza
     ("#h" "ٕ")
     ("#H" "ٔ")
-
-    ;; Punctuation
-    ("," "،")
-    (",," ",")
-    (";" "؛")
-    (";;" ";")
-    ("?" "؟")
-    ("??" "?")
-    ("%" "٪")
-    ("%%" "%")
-    ("*" "٭")
-    ("**" "*")
-
-    ;; Tatweel
-    ((A-\-) "ـ")
-
-    ;; Typography
-    ("<<" "«")
-    (">>" "»")
-    ("--" "–")
-    ("---" "—")
-    ("..." "…")
-    ((G-.) "…")
-    ((G-,) "·")
+    ; Madda
+    ("#m" "ٓ")
+    ; Sukun
+    ("#s" "ْ")
+    ; Tashdid (Shadda)
+    ("#t" "ّ")
+    ; Khanjariyah (Dagger)
+    ("#x" "ٰ")
 
     ;; Numbers
     ; Perso-Arabic
@@ -204,29 +146,47 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ((A-8) "8")
     ((A-9) "9")
     ((A-0) "0")
-    ; Eastern-Arabic
+    ; Eastern Arabic
     (":4" "٤")
     (":5" "٥")
     (":6" "٦")
-    ; Operators
+
+    ;; Symbols
+    ; Punctuation
+    ("," "،")
+    (",," ",")
+    (";" "؛")
+    (";;" ";")
+    ("?" "؟")
+    ("??" "?")
+    ("*" "٭")
+    ("**" "*")
+    ; Typography
+    ("<<" "«")
+    (">>" "»")
+    ("--" "–")
+    ("---" "—")
+    ("..." "…")
+    ((G-.) "…")
+    ((G-,) "·")
+    ; Tatweel
+    ((A-\-) "ـ")
+    ; Mathematics
     (":/" "÷")
     (":*" "×")
     (":-" "−")
-    ; Separators
+    (":%" "٪")
     ; decimal separator
-    (":," "٫")  ; by appearance
-    ((A-.) "٫") ; by function
+    (":," "٫")
+    ((A-.) "٫")
     ; thousands separator
-    (":'" "٬")  ; by appearance
-    ((A-,) "٬") ; by function
+    (":'" "٬")
+    ((A-,) "٬")
 
-
-    ;; Space
+    ;; Space and (Non-)Joiners
     ; non-breaking space (NBSP, U+00A0)
     ("!NBSP" " ")
     ((G-\ ) " ")
-
-    ;; (Non-)Joiners
     ; zero-width non-joiner (ZWNJ, U+200C)
     ("!ZWNJ" "‌")
     ((S-\ ) "‌")
@@ -237,9 +197,8 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ((C-j) "‍")
 
     ;; Bi-directional text
-
+    ; Marks
     ; Arabic letter mark (ALM, U+061C)
-    ((C-p) "؜")
     ("!ALM" "؜")
     ; left-to-right mark (LRM, U+200E)
     ((C-l) "‎")
@@ -247,33 +206,32 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     ; right-to-left mark (RLM, U+200F)
     ((C-r) "‏")
     ("!RLM" "‏")
-
-    ; left-to-right embedding (LRE, U+202A)
-    ("!LRE" "‪")
-    ; right-to-left embedding (RLE, U+202B)
-    ("!RLE" "‫")
-    ; left-to-right override (LRO, U+202D)
-    ("!LRO" "‭")
-    ; right-to-left override (RLO, U+202E)
-    ("!RLO" "‮")
-
-    ; pop directional formatting (PDF, U+202C)
-    ("!PDF" "‬")
-
+    ; Isolates
     ; left-to-right isolate (LRI, U+2066)
     ((G-l) "⁦")
     ("!LRI" "⁦")
     ; right-to-left isolate (RLI, U+2067)
     ((G-r) "⁧")
     ("!RLI" "⁧")
-
     ; first strong isolate (FSI, U+2068)
     ((G-f) "⁨")
     ("!FSI" "⁨")
-
+    ; Embeddings
+    ; left-to-right embedding (LRE, U+202A)
+    ("!LRE" "‪")
+    ; right-to-left embedding (RLE, U+202B)
+    ("!RLE" "‫")
+    ; Overrides
+    ; left-to-right override (LRO, U+202D)
+    ("!LRO" "‭")
+    ; right-to-left override (RLO, U+202E)
+    ("!RLO" "‮")
+    ; Pops
     ; pop directional isolate (PDI, U+2069)
     ((G-p) "⁩")
     ("!PDI" "⁩")
+    ; pop directional formatting (PDF, U+202C)
+    ("!PDF" "‬")
 ))
 
 (state
