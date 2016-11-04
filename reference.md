@@ -183,8 +183,8 @@ Symbol  | `m17n`  | Name
 
 ### Typography
 
-`G-.` means `Alt Gr` key plus `.` key.
-`A--` means `Alt` key plus `-` key.
+- `G-.` means `Alt Gr` key plus `.` key.
+- `A--` means `Alt` key plus `-` key.
 
 Symbol  | `m17n`    | Name
 ------- | --------- | -----------------------
@@ -214,9 +214,9 @@ Symbol | `m17n` | Name
 
 ## Space and (Non-)Joiners
 
-`A-␣` means `Alt` key plus space bar.
-`G-␣` means `Alt Gr` key plus space bar.
-`S-␣` means `Shift` key plus space bar.
+- `A-␣` means `Alt` key plus space bar.
+- `G-␣` means `Alt Gr` key plus space bar.
+- `S-␣` means `Shift` key plus space bar.
 
 `m17n`            | Name
 ----------------- | ----------------------------
