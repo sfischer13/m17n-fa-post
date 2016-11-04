@@ -113,9 +113,9 @@ Letter  | `m17n`   | Name
 
 Letter  | `m17n`  | Name
 ------- | ------- | --------------------
-ـََ       | #f / #a | Fatha
-ـِِ       | #k / #e | Kasra
-ـُُ       | #d / #o | Damma
+ـَ       | #f / #a | Fatha
+ـِ       | #k / #e | Kasra
+ـُ       | #d / #o | Damma
 ـً       | #F / #A | Fathatan
 ـٍ       | #K / #E | Kasratan
 ـٌ       | #D / #O | Dammatan
@@ -123,7 +123,7 @@ Letter  | `m17n`  | Name
 ـٕ       | #H      | Hamza below
 ـٓ       | #m      | Madda
 ـْ       | #s      | Sukun
-ـّ ُ      | #t      | Tashdid (Shadda)
+ـّ       | #t      | Tashdid (Shadda)
 ـٰ       | #x      | Khanjariyah (Dagger)
 
 ## Numbers
