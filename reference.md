@@ -184,7 +184,7 @@ Symbol  | `m17n`  | Name
 
 ### Typography
 
-- `G-.` means `Alt Gr` key plus `.` key.
+- `G-.` means `AltGr` key plus `.` key.
 - `A--` means `Alt` key plus `-` key.
 
 Symbol  | `m17n`    | Name
@@ -222,8 +222,8 @@ Symbol | `m17n` | Name
 `m17n`            | Name
 ----------------- | ----------------------------
 !NBSP / G-␣       | Non-breaking space (NBSP)
-!ZWNJ / S-␣ / C-n | Zero-width non-joiner (ZWNJ)
-!ZWJ / A-␣ / C-j  | Zero-width joiner (ZWJ)
+!ZWNJ / S-␣ / G-n | Zero-width non-joiner (ZWNJ)
+!ZWJ / A-␣ / G-j  | Zero-width joiner (ZWJ)
 
 ## Bi-directional text
 
@@ -234,8 +234,8 @@ For more details, see the Wikipedia article about [bi-directional text](https://
 BIDI  | `m17n`     | Name
 ----- | ---------- | ------------------
 ALM   | !LRM       | Arabic letter mark
-LRM   | !LRM / C-l | Left-to-right mark
-RLM   | !RLM / C-r | Right-to-left mark
+LRM   | !LRM / G-L | Left-to-right mark
+RLM   | !RLM / G-R | Right-to-left mark
 
 ### Isolates
 
