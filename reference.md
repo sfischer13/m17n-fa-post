@@ -4,6 +4,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Introduction](#introduction)
 - [Letters](#letters)
   - [Persian](#persian)
   - [Arabic](#arabic)
@@ -29,6 +30,18 @@
   - [Pops](#pops)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Introduction
+
+The `m17n` library has its quirks. [Dead keys](https://en.wikipedia.org/wiki/Dead_key) and [AltGr](https://en.wikipedia.org/wiki/AltGr_key) might not work if you use a non-US keyboard. You can still fall back on one of the alternative keyboard shortcuts (e.g. *c* instead of *`*).
+
+* `A` means `Alt`
+* `C` means `Ctrl`
+* `G` means `AltGr`
+* `S` means `Shift`
+
+* `G-l` means `AltGr` + `l`
+* `G-L` means `AltGr` + `Shift` + `l`
 
 ## Letters
 
