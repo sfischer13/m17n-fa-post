@@ -1,4 +1,5 @@
 ;; fa-pre.mim -- Persian input method using prefix modifiers
+
 ;; The MIT License (MIT)
 ;;
 ;; Copyright (c) 2015-2016 Stefan Fischer
@@ -61,7 +62,38 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("d" "د")
     ("-z" "ذ")
     ("-d" "ذ")
-   ; Arabic
+    ("r" "ر")
+    ("z" "ز")
+    ("^z" "ژ")
+    ("Z" "ژ")
+    ("s" "س")
+    ("^s" "ش")
+    ("S" "ش")
+    (".s" "ص")
+    (":z" "ض")
+    (".d" "ض")
+    (".t" "ط")
+    (".z" "ظ")
+    ("\"" "ع")
+    ("\"\"" "\"") ; literal "
+    ("E" "ع")
+    (".g" "غ")
+    ("-g" "غ")
+    ("f" "ف")
+    ("q" "ق")
+    ("k" "ک")
+    ("g" "گ")
+    ("l" "ل")
+    ("m" "م")
+    ("n" "ن")
+    ("w" "و")
+    ("u" "و")
+    ("v" "و")
+    ("h" "ه")
+    ("y" "ی")
+    ("i" "ی")
+
+    ; Arabic
     (":k" "ك")
     (":y" "ي")
 
