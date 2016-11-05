@@ -36,8 +36,8 @@
 
 Letter  | `m17n`              | Name  | DMG           | EI    | Wehr
 ------- | ------------------- | ----- | ------------- | ----- | -----
-‎ء      | '                   | hamze | ʾ             | ʾ     | ʼ
- '      | ''                  |       |               |       |
+‎ء      | ` / **c**           | hamze | ʾ             | ʾ     | ʼ
+`       | ``                  |       |               |       |
 ‎ا      | **a**               | alef  | **ā** / **ʾ** |       | ā
 ‎ب      | b                   | be    | b             | b     | b
 ‎پ      | p                   | pe    | p             | p     |
@@ -58,8 +58,8 @@ Letter  | `m17n`              | Name  | DMG           | EI    | Wehr
 ‎ض      | **:z** / .d         | zad   | **ż** (ḍ)     | ż     | ḍ
 ‎ط      | .t                  | ta    | ṭ             | ṭ     | ṭ
 ‎ظ      | .z                  | za    | ẓ             | ẓ     | ẓ
-‎ع      | " / **E**           | eyn   | ʿ             | ʿ     | ʻ
- "      | ""                  |       |               |       |
+‎ع      | ´ / **E**           | eyn   | ʿ             | ʿ     | ʻ
+´       | ´´                  |       |               |       |
 ‎غ      | .g / -g             | geyn  | ġ             | ḡ     | ġ / ḡ
 ‎ف      | f                   | fe    | f             | f     | f
 ‎ق      | q                   | qaf   | q             | q     | q
@@ -76,7 +76,7 @@ Letter  | `m17n`              | Name  | DMG           | EI    | Wehr
 
 Letter  | `m17n`  | Name
 ------- | ------- | ----------
-‎ك      | :k      | Arabic kaf
+‎ك      | :k / K  | Arabic kaf
 ‎ي      | :y      | Arabic ye
 
 ### Alef
@@ -84,9 +84,9 @@ Letter  | `m17n`  | Name
 Letter  | `m17n`   | Name
 ------- | -------- | ---------------
 ا       | a        | Alef
-آ       | o        | Alef Madda
-ى       | M        | Alef Maksura
-اً       | N        | Alef + Fathatan
+آ       | -a / o   | Alef Madda
+ى       | :a / M   | Alef Maksura
+اً       | =a / N   | Alef + Fathatan
 ٱ       | W        | Alef Wasla
 
 ### Hamza
@@ -95,6 +95,7 @@ Letter  | `m17n`   | Name
 ------- | -------- | ---------------------
 أ       | A        | Alef with Hamza above
 إ       | O        | Alef with Hamza below
+هٔ       | H        | He with Hamza above
 ؤ       | V        | Vav with Hamza above
 ئ       | Y        | Ye with Hamza above
 
@@ -102,8 +103,7 @@ Letter  | `m17n`   | Name
 
 Letter  | `m17n`   | Name
 ------- | -------- | ---------------------
-هٔ       | H        | Ezafe
-ة       | T        | Teh Marbuta
+ة       | :h / T   | Teh Marbuta
 لا      | L        | Lam Alef
 ای      | I        | Alef Ye
 او      | U        | Alef Vav
@@ -113,18 +113,19 @@ Letter  | `m17n`   | Name
 
 Letter  | `m17n`  | Name
 ------- | ------- | --------------------
-ـَ       | #f / #a | Fatha
-ـِ       | #k / #e | Kasra
-ـُ       | #d / #o | Damma
-ـً       | #F / #A | Fathatan
-ـٍ       | #K / #E | Kasratan
-ـٌ       | #D / #O | Dammatan
-ـٔ       | #h      | Hamza above
-ـٕ       | #H      | Hamza below
-ـٓ       | #m      | Madda
-ـْ       | #s      | Sukun
-ـّ       | #t      | Tashdid (Shadda)
-ـٰ       | #x      | Khanjariyah (Dagger)
+'       | ''      |
+ـَ       | 'f / 'a | Fatha
+ـِ       | 'k / 'e | Kasra
+ـُ       | 'd / 'o | Damma
+ـً       | 'F / 'A | Fathatan
+ـٍ       | 'K / 'E | Kasratan
+ـٌ       | 'D / 'O | Dammatan
+ـٔ       | 'h      | Hamza above
+ـٕ       | 'H      | Hamza below
+ـٓ       | 'm      | Madda
+ـْ       | 's      | Sukun
+ـّ       | 't      | Tashdid (Shadda)
+ـٰ       | 'x      | Khanjariyah (Dagger)
 
 ## Numbers
 

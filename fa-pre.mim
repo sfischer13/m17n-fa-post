@@ -144,8 +144,8 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("#D" "ٌ")
     ("#O" "ٌ")
     ; Hamza
-    ("#h" "ٕ")
-    ("#H" "ٔ")
+    ("#h" "ٔ")
+    ("#H" "ٕ")
     ; Madda
     ("#m" "ٓ")
     ; Sukun
