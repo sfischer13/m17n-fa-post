@@ -119,3 +119,8 @@ Diacritics start with `#`.
 There is a lot more to discover: shortcuts, typography, bi-directional text, …
 
 The [reference](https://github.com/sfischer13/m17n-fa-pre/blob/master/reference.md) contains a complete documentation of the functionality of `m17n-fa-pre`. If you're interested in how `m17n` works, you could have a look at the definitions in [fa-pre.mim](https://github.com/sfischer13/m17n-fa-pre/blob/master/fa-pre.mim). 
+
+## License
+Copyright (c) 2015-2017 Stefan Fischer  
+The source code is available under the **MIT License**.  
+See [LICENSE](https://github.com/sfischer13/m17n-fa-pre/blob/master/LICENSE) for further details.
