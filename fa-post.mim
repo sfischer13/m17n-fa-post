@@ -42,8 +42,9 @@ For a description of the layout, have a look at the reference [1], the examples 
   (default
     ;; Letters
     ; Persian
-    ("'" "ء")
-    ("''" "'") ; literal '
+    ("c" "ء")
+    ("`" "ء")
+    ("``" "`")
     ("a" "ا")
     ("b" "ب")
     ("p" "پ")
@@ -74,9 +75,9 @@ For a description of the layout, have a look at the reference [1], the examples 
     (".d" "ض")
     (".t" "ط")
     (".z" "ظ")
-    ("\"" "ع")
-    ("\"\"" "\"") ; literal "
     ("E" "ع")
+    ("´" "ع")
+    ("´´" "´")
     (".g" "غ")
     ("-g" "غ")
     ("f" "ف")
@@ -94,66 +95,72 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("i" "ی")
 
     ; Arabic
+    ("K" "ك")
     (":k" "ك")
     (":y" "ي")
 
     ; Alef
     ; Alef Madda
+    ("-a" "آ")
     ("o" "آ")
     ; Alef Maksura
+    (":a" "ى")
     ("M" "ى")
     ; Alef + Fathatan
+    ("=a" "اً")
     ("N" "اً")
     ; Alef Wasla
     ("W" "ٱ")
 
     ; Hamze
-    ("A" "أ")
-    ("O" "إ")
+    ("A" "أٔ")
+    ("O" "إ")
+    ("H" "هٔ")
     ("V" "ؤ")
     ("Y" "ئ")
 
     ; Miscellaneous
-    ; Ezafe
-    ("H" "هٔ")
     ; Teh Marbuta
+    (":h" "ة")
     ("T" "ة")
     ; Lam Alef
     ("L" "لا")
+    ; Shortcuts
     ("I" "ای")
     ("U" "او")
     ("X" "خو")
 
     ;; Diacritics
+    ("''" "'")
     ; Fatha
-    ("#f" "َ")
-    ("#a" "َ")
+    ("'f" "َ")
+    ("'a" "َ")
     ; Kasra
-    ("#k" "ِ")
-    ("#e" "ِ")
+    ("'k" "ِ")
+    ("'e" "ِ")
     ; Damma
-    ("#d" "ُ")
-    ("#o" "ُ")
+    ("'d" "ُ")
+    ("'o" "ُ")
     ; Fathatan
-    ("#F" "ً")
-    ("#A" "ً")
+    ("'F" "ً")
+    ("'A" "ً")
     ; Kasratan
-    ("#K" "ٍ")
-    ("#E" "ٍ")
+    ("'K" "ٍ")
+    ("'E" "ٍ")
     ; Dammatan
-    ("#D" "ٌ")
-    ("#O" "ٌ")
+    ("'D" "ٌ")
+    ("'O" "ٌ")
     ; Hamza
-    ("#h" "ٔ")
-    ("#H" "ٕ")
+    ("'h" "ٔ")
+    ("'H" "ٕ")
     ; Madda
-    ("#m" "ٓ")
+    ("'m" "ٓ")
     ; Sukun
-    ("#s" "ْ")
+    ("'s" "ْ")
     ; Tashdid (Shadda)
-    ("#t" "ّ")
+    ("'t" "ّ")
     ; Khanjariyah (Dagger)
-    ("#x" "ٰ")
+    ("'x" "ٰ")
 
     ;; Numbers
     ; Perso-Arabic
