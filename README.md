@@ -13,17 +13,13 @@ For a description of the layout, have a look at the [reference](https://github.c
   - [Potential Problems](#potential-problems)
 - [Examples](#examples)
   - [Letters](#letters)
-    - [Simple Example](#simple-example)
-    - [Complex Example with Diacritics](#complex-example-with-diacritics)
-  - [Numbers](#numbers)
   - [Diacritics](#diacritics)
+  - [Numbers](#numbers)
+  - [Arabic Variants](#arabic-variants)
   - [Symbols](#symbols)
-  - [BIDI](#bidi)
+  - [(Non-)Joiners](#non-joiners)
     - [ZWNJ](#zwnj)
     - [ZWJ](#zwj)
-  - [Arabic Alternatives](#arabic-alternatives)
-    - [Arabic Letters](#arabic-letters)
-    - [Arabic Numbers](#arabic-numbers)
 - [Reference](#reference)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -57,60 +53,51 @@ In the examples below, **spaces were added for clarification only.**
 
 ### Letters
 
-#### Simple Example
-
-- Output: `یک، دو، سه`
 - Input: `yk, dv, sh`
+- Output: `یک، دو، سه`
 
-#### Complex Example with Diacritics
+Diacritics are prefixed with `#`:
 
-Diacritics start with `#`.
-
-- Output: `تَشْکِیل`
 - Input: `t #a ^s #s k #e y l`
-- Input using shortcut: `t #a S #s k #e y l`
+- Output: `تَشْکِیل`
+
+### Diacritics
+
+- Input: `n #a n #A n #t n #s`
+- Output: `نَ نً نّ نْ`
 
 ### Numbers
 
 `M-1` means `Alt` key plus `1` key.
 
-- Output: `‏۱ 1 ۴ 4`
 - Input: `1 M-1 4 M-4`
+- Output: `‏۱ 1 ۴ 4`
 
-### Diacritics
+### Arabic Variants
 
-- Output: `نَ نً نّ نْ`
-- Input: `n #a n #A n #t n #s`
+- Input: `:k :y`
+- Output: `ك ي`
+
+- Input: `:4 :5 :6`
+- Output: `٤ ٥ ٦`
 
 ### Symbols
 
-### BIDI
+### (Non-)Joiners
 
 #### ZWNJ
 
 `(C-N)` means `Ctrl` key plus `N` key.
 
-- Output: `مم م‌م`
 - Input: `mm m(C-N)m`
+- Output: `مم م‌م`
 
 #### ZWJ
 
 `(C-J)` means `Ctrl` key plus `J` key.
 
-- Output: `اا ا‍ا`
 - Input: `aa a(C-J)a`
-
-### Arabic Alternatives
-
-#### Arabic Letters
-
-- Output: `ك ي`
-- Input: `:k :y`
-
-#### Arabic Numbers
-
-- Output: `٤ ٥ ٦`
-- Input: `:4 :5 :6`
+- Output: `اا ا‍ا`
 
 ## Reference
 
