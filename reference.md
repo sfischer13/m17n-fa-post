@@ -37,11 +37,7 @@ The `m17n` library has its quirks. [Dead keys](https://en.wikipedia.org/wiki/Dea
 
 * `A` means `Alt`
 * `C` means `Ctrl`
-* `G` means `AltGr`
 * `S` means `Shift`
-
-* `G-l` means `AltGr` + `l`
-* `G-L` means `AltGr` + `Shift` + `l`
 
 ## Letters
 
@@ -49,7 +45,7 @@ The `m17n` library has its quirks. [Dead keys](https://en.wikipedia.org/wiki/Dea
 
 Letter  | `m17n`              | Name  | DMG           | EI    | Wehr
 ------- | ------------------- | ----- | ------------- | ----- | -----
-‎ء      | ` / **e**           | hamze | ʾ             | ʾ     | ʼ
+‎ء      | ` / **H**           | hamze | ʾ             | ʾ     | ʼ
 `       | ``                  |       |               |       |
 ‎ا      | **a**               | alef  | **ā** / **ʾ** |       | ā
 ‎ب      | b                   | be    | b             | b     | b
@@ -94,33 +90,33 @@ Letter  | `m17n`  | Name
 
 ### Alef
 
-Letter  | `m17n`   | Name
-------- | -------- | ---------------
-ا       | a        | Alef
-آ       | a- / o   | Alef Madda
-ى       | a: / M   | Alef Maksura
-اً       | a= / N   | Alef + Fathatan
-ٱ       | W        | Alef Wasla
+Letter  | `m17n`     | Name
+------- | ---------- | ---------------
+ا       | a          | Alef
+آ       | a- / o / A | Alef Madda
+ى       | a: / M     | Alef Maksura
+اً       | a= / N     | Alef + Fathatan
+ٱ       | W          | Alef Wasla
 
 ### Hamza
 
 Letter  | `m17n`   | Name
 ------- | -------- | ---------------------
-أ       | A        | Alef with Hamza above
-إ       | O        | Alef with Hamza below
-هٔ       | H        | He with Hamza above
-ؤ       | V        | Vav with Hamza above
-ئ       | Y        | Ye with Hamza above
+أ       | a#       | Alef with Hamza above
+إ       | a##      | Alef with Hamza below
+هٔ       | h#       | He with Hamza above
+ؤ       | v#       | Vav with Hamza above
+ئ       | y#       | Ye with Hamza above
 
 ### Miscellaneous
 
-Letter  | `m17n`   | Name
-------- | -------- | ---------------------
-ة       | :h / T   | Teh Marbuta
-لا      | L        | Lam Alef
-ای      | I        | Alef Ye
-او      | U        | Alef Vav
-خو      | X        | Khe Vav
+Letter  | `m17n`      | Name
+------- | ----------- | ---------------------
+ة       | h: / t: / T | Teh Marbuta
+لا      | L           | Lam Alef
+ای      | I           | Alef Ye
+او      | U           | Alef Vav
+خو      | X           | Khe Vav
 
 ## Diacritics
 
@@ -161,24 +157,24 @@ Number  | `m17n`
 
 Number  | `m17n`
 ------- | -------
-1       | M-1
-2       | M-2
-3       | m-3
-4       | m-4
-5       | M-5
-6       | M-6
-7       | M-7
-8       | M-8
-9       | M-9
-0       | M-0
+1       | A-1
+2       | A-2
+3       | A-3
+4       | A-4
+5       | A-5
+6       | A-6
+7       | A-7
+8       | A-8
+9       | A-9
+0       | A-0
 
 ### Eastern Arabic
 
 Number  | `m17n`
 ------- | -------
-٤       | :4
-٥       | :5
-٦       | :6
+٤       | 4:
+٥       | 5:
+٦       | 6:
 
 ## Symbols
 
@@ -197,7 +193,6 @@ Symbol  | `m17n`  | Name
 
 ### Typography
 
-- `G-.` means `AltGr` key plus `.` key.
 - `A--` means `Alt` key plus `-` key.
 
 Symbol  | `m17n`    | Name
@@ -206,37 +201,31 @@ Symbol  | `m17n`    | Name
 »       | >>        | Closing quotation marks
 –       | --        | En dash
 —       | ---       | Em dash
-…       | ... / G-. | Ellipsis
-·       | G-,       | Middle dot
+·       | ..        | Middle dot
+…       | ...       | Ellipsis
 ـ       | A--       | Tatweel
 
 ### Mathematics
 
 Symbol  | `m17n`   | Name
 ------- | -------- | -------------------
-÷       | :/       | Division
-×       | :*       | Multiplication
-−       | :-       | Minus
-٪       | %        | Percent
-٫       | :, / A-. | Decimal separator
-٬       | :' / A-, | Thousands separator
-
-### Cultural
-
-Symbol | `m17n` | Name
------- | ------ | ----
+÷       | \/       | Division
+×       | \*       | Multiplication
+−       | \-       | Minus
+٪       | \%       | Percent
+٫       | \, / A-, | Decimal separator
+٬       | \' / A-' | Thousands separator
 
 ## Space and (Non-)Joiners
 
 - `A-␣` means `Alt` key plus space bar.
-- `G-␣` means `Alt Gr` key plus space bar.
 - `S-␣` means `Shift` key plus space bar.
 
-`m17n`            | Name
------------------ | ----------------------------
-!NBSP / G-␣       | Non-breaking space (NBSP)
-!ZWNJ / S-␣ / G-n | Zero-width non-joiner (ZWNJ)
-!ZWJ / A-␣ / G-j  | Zero-width joiner (ZWJ)
+`m17n`      | Name
+----------- | ----------------------------
+!NBSP / S-␣ | Non-breaking space (NBSP)
+!ZWNJ / A-␣ | Zero-width non-joiner (ZWNJ)
+!ZWJ / A-+  | Zero-width joiner (ZWJ)
 
 ## Bi-directional text
 
@@ -244,43 +233,43 @@ For more details, see the Wikipedia article about [bi-directional text](https://
 
 ### Marks
 
-BIDI  | `m17n`     | Name
------ | ---------- | ------------------
-ALM   | !LRM       | Arabic letter mark
-LRM   | !LRM / G-L | Left-to-right mark
-RLM   | !RLM / G-R | Right-to-left mark
+BIDI  | `m17n`    | Name
+----- | --------- | ------------------
+ALM   | !ALM / !~ | Arabic letter mark
+LRM   | !LRM / !> | Left-to-right mark
+RLM   | !RLM / !< | Right-to-left mark
 
 ### Isolates
 
 *Isolates* were created as a replacement of *embeddings*.
 
-BIDI  | `m17n`     | Name
------ | ---------- | ---------------------
-LRI   | !LRI / G-l | Left-to-right isolate
-RLI   | !RLI / G-r | Right-to-left isolate
-FSI   | !FSI / G-f | First strong isolate
+BIDI  | `m17n`    | Name
+----- | --------- | ---------------------
+LRI   | !LRI / !] | Left-to-right isolate
+RLI   | !RLI / ![ | Right-to-left isolate
+FSI   | !FSI / !+ | First strong isolate
 
 ### Embeddings
 
 *Embeddings* are being discouraged in favor of *isolates*.
 
-BIDI  | `m17n`  | Name
------ | ------- | -----------------------
-LRE   | !LRE    | Left-to-right embedding
-RLE   | !RLE    | Right-to-left embedding
+BIDI  | `m17n`    | Name
+----- | --------- | -----------------------
+LRE   | !LRE / !) | Left-to-right embedding
+RLE   | !RLE / !( | Right-to-left embedding
 
 ### Overrides
 
 Don't use *overrides* unless you know what you do.
 
-BIDI  | `m17n`  | Name
------ | ------- | ----------------------
-LRO   | !LRO    | Left-to-right override
-RLO   | !RLO    | Right-to-left override
+BIDI  | `m17n`   | Name
+----- | -------- | ----------------------
+LRO   | !LRO /!} | Left-to-right override
+RLO   | !RLO /!{ | Right-to-left override
 
 ### Pops
 
 BIDI  | `m17n`     | Name
 ----- | ---------- | --------------------------
-PDI   | !PDI / G-p | Pop directional isolate
-PDF   | !PDF       | Pop directional formatting
+PDI   | !PDI / !=  | Pop directional isolate
+PDF   | !PDF / !#  | Pop directional formatting
