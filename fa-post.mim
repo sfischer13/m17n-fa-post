@@ -257,11 +257,11 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("\\-" "−")
     ("\\%" "٪")
     ; decimal separator
-    ((A-.) "٫")
     ("\\," "٫")
+    ((A-,) "٫")
     ; thousands separator
-    ((A-,) "٬")
     ("\\'" "٬")
+    ((A-') "٬")
 
     ;; Space and (Non-)Joiners
     ; non-breaking space (NBSP, U+00A0)
