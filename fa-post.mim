@@ -257,15 +257,12 @@ For a description of the layout, have a look at the reference [1], the examples 
     ;; Space and (Non-)Joiners
     ; non-breaking space (NBSP, U+00A0)
     ("!NBSP" " ")
-    ((G-\ ) " ")
     ; zero-width non-joiner (ZWNJ, U+200C)
     ("!ZWNJ" "‌")
     ((S-\ ) "‌")
-    ((G-n) "‌")
     ; zero-width joiner (ZWJ, U+200D)
     ("!ZWJ" "‍")
     ((A-\ ) "‍")
-    ((G-j) "‍")
 
     ;; Bi-directional text
     ("!!" "!")
@@ -275,24 +272,19 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("!~" "؜")
     ; left-to-right mark (LRM, U+200E)
     ("!LRM" "‎")
-    ((G-L) "‎")
     ("!>" "‎")
     ; right-to-left mark (RLM, U+200F)
     ("!RLM" "‏")
-    ((G-R) "‏")
     ("!<" "‏")
     ; Isolates
     ; left-to-right isolate (LRI, U+2066)
     ("!LRI" "⁦")
-    ((G-l) "⁦")
     ("!]" "⁦")
     ; right-to-left isolate (RLI, U+2067)
     ("!RLI" "⁧")
-    ((G-r) "⁧")
     ("![" "⁧")
     ; first strong isolate (FSI, U+2068)
     ("!FSI" "⁨")
-    ((G-f) "⁨")
     ("!+" "⁨")
     ; Embeddings
     ; left-to-right embedding (LRE, U+202A)
@@ -311,7 +303,6 @@ For a description of the layout, have a look at the reference [1], the examples 
     ; Pops
     ; pop directional isolate (PDI, U+2069)
     ("!PDI" "⁩")
-    ((G-p) "⁩")
     ("!=" "⁩")
     ; pop directional formatting (PDF, U+202C)
     ("!PDF" "‬")
