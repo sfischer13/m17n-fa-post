@@ -49,31 +49,31 @@ The `m17n` library has its quirks. [Dead keys](https://en.wikipedia.org/wiki/Dea
 
 Letter  | `m17n`              | Name  | DMG           | EI    | Wehr
 ------- | ------------------- | ----- | ------------- | ----- | -----
-‎ء      | ` / **c**           | hamze | ʾ             | ʾ     | ʼ
+‎ء      | ` / **e**           | hamze | ʾ             | ʾ     | ʼ
 `       | ``                  |       |               |       |
 ‎ا      | **a**               | alef  | **ā** / **ʾ** |       | ā
 ‎ب      | b                   | be    | b             | b     | b
 ‎پ      | p                   | pe    | p             | p     |
 ‎ت      | t                   | te    | t             | t     | t
-‎ث      | -s / -t             | se    | s̱ (ṯ)         | ṯ     | ṯ
-‎ج      | ^g / **G** / j      | jim   | ǧ             | j     | ǧ / j
-‎چ      | ^c / **C**          | che   | č             | č     |
-‎ح      | .h                  | he    | ḥ             | ḥ     | ḥ
-‎خ      | **-h** / -k / **x** | khe   | **ḫ**         | ḵ     | ḫ / ḵ
+‎ث      | s- / t-             | se    | s̱ (ṯ)         | ṯ     | ṯ
+‎ج      | g^ / **G** / j      | jim   | ǧ             | j     | ǧ / j
+‎چ      | c^ / **c** / **C**  | che   | č             | č     |
+‎ح      | h.                  | he    | ḥ             | ḥ     | ḥ
+‎خ      | **h-** / k- / **x** | khe   | **ḫ**         | ḵ     | ḫ / ḵ
 ‎د      | d                   | dal   | d             | d     | d
-‎ذ      | -z / -d             | zal   | ẕ (ḏ)         | ḏ     | ḏ
+‎ذ      | z- / d-             | zal   | ẕ (ḏ)         | ḏ     | ḏ
 ‎ر      | r                   | re    | r             | r     | r
 ‎ز      | z                   | ze    | z             | z     | z
-‎ژ      | ^z / **Z**          | že    | ž             | ž     |
+‎ژ      | z^ / **Z**          | že    | ž             | ž     |
 ‎س      | s                   | sin   | s             | s     | s
-‎ش      | ^s / **S**          | shin  | š             | š     | š
-‎ص      | .s                  | sad   | ṣ             | ṣ     | ṣ
-‎ض      | **:z** / .d         | zad   | **ż** (ḍ)     | ż     | ḍ
-‎ط      | .t                  | ta    | ṭ             | ṭ     | ṭ
-‎ظ      | .z                  | za    | ẓ             | ẓ     | ẓ
+‎ش      | s^ / **S**          | shin  | š             | š     | š
+‎ص      | s.                  | sad   | ṣ             | ṣ     | ṣ
+‎ض      | **z:** / d.         | zad   | **ż** (ḍ)     | ż     | ḍ
+‎ط      | t.                  | ta    | ṭ             | ṭ     | ṭ
+‎ظ      | z.                  | za    | ẓ             | ẓ     | ẓ
 ‎ع      | ´ / **E**           | eyn   | ʿ             | ʿ     | ʻ
 ´       | ´´                  |       |               |       |
-‎غ      | .g / -g             | geyn  | ġ             | ḡ     | ġ / ḡ
+‎غ      | g. / g-             | geyn  | ġ             | ḡ     | ġ / ḡ
 ‎ف      | f                   | fe    | f             | f     | f
 ‎ق      | q                   | qaf   | q             | q     | q
 ‎ک      | k                   | kaf   | k             | k     | k
@@ -89,17 +89,17 @@ Letter  | `m17n`              | Name  | DMG           | EI    | Wehr
 
 Letter  | `m17n`  | Name
 ------- | ------- | ----------
-‎ك      | :k / K  | Arabic kaf
-‎ي      | :y      | Arabic ye
+‎ك      | k: / K  | Arabic kaf
+‎ي      | y: / Y  | Arabic ye
 
 ### Alef
 
 Letter  | `m17n`   | Name
 ------- | -------- | ---------------
 ا       | a        | Alef
-آ       | -a / o   | Alef Madda
-ى       | :a / M   | Alef Maksura
-اً       | =a / N   | Alef + Fathatan
+آ       | a- / o   | Alef Madda
+ى       | a: / M   | Alef Maksura
+اً       | a= / N   | Alef + Fathatan
 ٱ       | W        | Alef Wasla
 
 ### Hamza
