@@ -85,9 +85,9 @@ Check the [reference](reference.md) for a documentation of all features.
 
 [Reference](reference.md#numbers)
 
-`M-1` means `Alt` key plus `1` key.
+`A-1` means `Alt` key plus `1` key.
 
-- Input: `1 M-2 3 M-4`
+- Input: `1 A-2 3 A-4`
 - Output: `‏۱ 2 ۳ 4`
 
 ### Symbols + Typography
@@ -97,7 +97,7 @@ Check the [reference](reference.md) for a documentation of all features.
 - Input: `, ? ...`
 - Output: `، ؟ …`
 
-- Input: `l M-- l`
+- Input: `l A-- l`
 - Output: `لـل`
 
 ### (Non-)Joiners
@@ -106,16 +106,16 @@ Check the [reference](reference.md) for a documentation of all features.
 
 #### ZWNJ
 
-`(M-␣)` means `Alt` key plus `Space` key.
+`(A-␣)` means `Alt` key plus `Space` key.
 
-- Input: `mm m(M-␣)m`
+- Input: `mm m(A-␣)m`
 - Output: `مم م‌م`
 
 #### ZWJ
 
-`(M-+)` means `Alt` key plus `+` key.
+`(A-+)` means `Alt` key plus `+` key.
 
-- Input: `aa a(M-+)a`
+- Input: `aa a(A-+)a`
 - Output: `اا ا‍ا`
 
 ### Bi-directional text
