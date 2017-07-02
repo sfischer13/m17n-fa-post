@@ -1,4 +1,4 @@
-;; fa-pre.mim -- Persian input method using prefix modifiers
+;; fa-post.mim -- Persian input method using postfix modifiers
 
 ;; MIT License
 ;;
@@ -22,14 +22,14 @@
 ;; OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ;; SOFTWARE.
 
-(input-method fa pre)
+(input-method fa post)
 
-(description (_ "Persian input method using prefix modifiers.
+(description (_ "Persian input method using postfix modifiers.
 
 For a description of the layout, have a look at the reference [1], the examples in the README [2], and the  Wikipedia article about romanization of Persian [3]. In general, this input method is based on the schemes of the Deutsche Morgenländische Gesellschaft [4], the Encyclopædia Iranica [5], and the Hans Wehr transliteration system [6].
 
-[1] https://github.com/sfischer13/m17n-fa-pre/blob/master/reference.md
-[2] https://github.com/sfischer13/m17n-fa-pre/blob/master/README.md
+[1] https://github.com/sfischer13/m17n-fa-post/blob/master/reference.md
+[2] https://github.com/sfischer13/m17n-fa-post/blob/master/README.md
 [3] https://en.wikipedia.org/wiki/Romanization_of_Persian
 [4] https://en.wikipedia.org/wiki/Deutsche_Morgenl%C3%A4ndische_Gesellschaft
 [5] https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Iranica

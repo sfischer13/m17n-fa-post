@@ -1,14 +1,14 @@
 # Persian m17n
 
-A Persian input method for m17n using prefix modifiers.  
-For a description of the layout, have a look at the [reference](https://github.com/sfischer13/m17n-fa-pre/blob/master/reference.md), the examples below, and the Wikipedia article about [romanization of Persian](https://en.wikipedia.org/wiki/Romanization_of_Persian). In particular, this input method is based on the schemes of the [Deutsche Morgenländische Gesellschaft](https://en.wikipedia.org/wiki/Deutsche_Morgenl%C3%A4ndische_Gesellschaft), the [Encyclopædia Iranica](https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Iranica), and the [Hans Wehr transliteration](https://en.wikipedia.org/wiki/Hans_Wehr_transliteration) system.
+Persian input method for m17n using postfix modifiers.
+
+For a description of the layout, have a look at the [reference](https://github.com/sfischer13/m17n-fa-post/blob/master/reference.md), the examples below, and the Wikipedia article about [romanization of Persian](https://en.wikipedia.org/wiki/Romanization_of_Persian). In general, this input method is based on the schemes of the [Deutsche Morgenländische Gesellschaft](https://en.wikipedia.org/wiki/Deutsche_Morgenl%C3%A4ndische_Gesellschaft), the [Encyclopædia Iranica](https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Iranica), and the [Hans Wehr transliteration](https://en.wikipedia.org/wiki/Hans_Wehr_transliteration) system.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
 - [Installation](#installation)
-  - [Requirements](#requirements)
   - [Ubuntu + IBus](#ubuntu--ibus)
   - [Potential Problems](#potential-problems)
 - [Examples](#examples)
@@ -30,18 +30,16 @@ For a description of the layout, have a look at the [reference](https://github.c
 
 ## Installation
 
-In general, you have to copy `fa-pre.mim` to a place where m17n can find it (`~/.m17n.d/`). You will probably have to restart your input method, too.
+You have to copy `fa-post.mim` to a place where m17n can find it (`~/.m17n.d/`) and then restart your input method.
 
-### Requirements
-
-You need a recent Linux system with an input method (IBus, UIM, SCIM) that supports the [m17n](http://www.nongnu.org/m17n/) library.
+A recent Linux system with an input method (IBus, UIM, SCIM) that supports the [m17n](http://www.nongnu.org/m17n/) library is required.
 
 ### Ubuntu + IBus
 
 ```shell
 sudo apt-get install ibus-m17n
-git clone https://github.com/sfischer13/m17n-fa-pre.git
-cd m17n-fa-pre
+git clone https://github.com/sfischer13/m17n-fa-post.git
+cd m17n-fa-post
 make
 ```
 
@@ -118,9 +116,9 @@ Diacritics start with `#`.
 
 There is a lot more to discover: shortcuts, typography, bi-directional text, …
 
-The [reference](https://github.com/sfischer13/m17n-fa-pre/blob/master/reference.md) contains a complete documentation of the functionality of `m17n-fa-pre`. If you're interested in how `m17n` works, you could have a look at the definitions in [fa-pre.mim](https://github.com/sfischer13/m17n-fa-pre/blob/master/fa-pre.mim). 
+The [reference](https://github.com/sfischer13/m17n-fa-post/blob/master/reference.md) contains a complete documentation of the functionality of `m17n-fa-post`. If you're interested in how `m17n` works, you could have a look at the definitions in [fa-post.mim](https://github.com/sfischer13/m17n-fa-post/blob/master/fa-post.mim). 
 
 ## License
 Copyright (c) 2015-2017 Stefan Fischer  
 The source code is available under the **MIT License**.  
-See [LICENSE](https://github.com/sfischer13/m17n-fa-pre/blob/master/LICENSE) for further details.
+See [LICENSE](https://github.com/sfischer13/m17n-fa-post/blob/master/LICENSE) for further details.
