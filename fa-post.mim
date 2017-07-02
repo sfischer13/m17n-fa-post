@@ -124,6 +124,7 @@ For a description of the layout, have a look at the reference [1], the examples 
     ; Alef
     ; Alef Madda
     ("a-" "آ")
+    ("A" "آ")
     ("o" "آ")
     ; Alef Maksura
     ("a:" "ى")
@@ -137,7 +138,6 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("W" "ٱ")
 
     ; Hamze
-    ("A" "أٔ")
     ("O" "إ")
     ("V" "ؤ")
 
