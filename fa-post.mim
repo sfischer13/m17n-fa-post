@@ -257,12 +257,13 @@ For a description of the layout, have a look at the reference [1], the examples 
     ;; Space and (Non-)Joiners
     ; non-breaking space (NBSP, U+00A0)
     ("!NBSP" " ")
+    ((S-\ ) " ")
     ; zero-width non-joiner (ZWNJ, U+200C)
     ("!ZWNJ" "‌")
-    ((S-\ ) "‌")
+    ((A-\ ) "‌")
     ; zero-width joiner (ZWJ, U+200D)
     ("!ZWJ" "‍")
-    ((A-\ ) "‍")
+    ((A-\+) "‍")
 
     ;; Bi-directional text
     ("!!" "!")
