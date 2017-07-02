@@ -212,7 +212,14 @@ It is based on the schemes of the Deutsche Morgenländische Gesellschaft [1], th
     (":/" "÷")
     (":*" "×")
     (":-" "−")
-    (":," "٬") ; Arabic thousands separator (U+066C)
+    ; Separators
+    ; decimal separator
+    (":," "٫")  ; by appearance
+    ((A-.) "٫") ; by function
+    ; thousands separator
+    (":'" "٬")  ; by appearance
+    ((A-,) "٬") ; by function
+
 
     ;; Space
     ; non-breaking space (NBSP, U+00A0)
