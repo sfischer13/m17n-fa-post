@@ -245,8 +245,8 @@ RLM   | !RLM / !< | Right-to-left mark
 
 BIDI  | `m17n`    | Name
 ----- | --------- | ---------------------
-LRI   | !LRI / !] | Left-to-right isolate
-RLI   | !RLI / ![ | Right-to-left isolate
+LRI   | !LRI / !) | Left-to-right isolate
+RLI   | !RLI / !( | Right-to-left isolate
 FSI   | !FSI / !+ | First strong isolate
 
 ### Embeddings
@@ -255,8 +255,8 @@ FSI   | !FSI / !+ | First strong isolate
 
 BIDI  | `m17n`    | Name
 ----- | --------- | -----------------------
-LRE   | !LRE / !) | Left-to-right embedding
-RLE   | !RLE / !( | Right-to-left embedding
+LRE   | !LRE / !] | Left-to-right embedding
+RLE   | !RLE / ![ | Right-to-left embedding
 
 ### Overrides
 
