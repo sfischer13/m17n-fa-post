@@ -304,12 +304,16 @@ For a description of the layout, have a look at the reference [1], the examples 
     ; pop directional formatting (PDF, U+202C)
     ("!PDF" "‬"))
 
+  (flush
+    ((S-Return)))
+
   (backspace
     ((BackSpace) (undo))))
 
 (state
   (init
     (default)
+    (flush (shift init))
     (backspace)))
 
 ;; Local Variables:
