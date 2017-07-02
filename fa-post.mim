@@ -42,7 +42,7 @@ For a description of the layout, have a look at the reference [1], the examples 
   (default
     ;; Letters
     ; Persian
-    ("e" "ء")
+    ("H" "ء")
     ("`" "ء")
     ("``" "`")
     ("a" "ا")
@@ -139,7 +139,6 @@ For a description of the layout, have a look at the reference [1], the examples 
     ; Hamze
     ("A" "أٔ")
     ("O" "إ")
-    ("H" "هٔ")
     ("V" "ؤ")
 
     ; Miscellaneous
