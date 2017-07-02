@@ -235,9 +235,9 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("-" "-")
     ("--" "–")
     ("---" "—")
+    ("." ".")
+    (".." "·")
     ("..." "…")
-    ((G-.) "…")
-    ((G-,) "·")
     ; Tatweel
     ((A-\-) "ـ")
 

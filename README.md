@@ -55,51 +55,72 @@ Check the [reference](reference.md) for a documentation of all features.
 
 ### Letters
 
+[Reference](reference.md#letters)
+
 - Input: `yk, dv, sh`
 - Output: `یک، دو، سه`
 
-Diacritics are prefixed with `#`:
+[Arabic variants](reference.md#arabic) are available:
 
-- Input: `t #a ^s #s k #e y l`
+- Input: `k: y:`
+- Output: `ك ي`
+
+- Input: `4: 5: 6:`
+- Output: `٤ ٥ ٦`
+
+[Diacritics](reference.md#diacritics) are prefixed with `'`:
+
+- Input 1: `t 'a s^ 's k 'e y l`
+- Input 2: `t 'a S 's k 'e y l`
 - Output: `تَشْکِیل`
 
 ### Diacritics
 
-- Input: `n #a n #A n #t n #s`
+[Reference](reference.md#diacritics)
+
+- Input: `n 'a n 'A n 't n 's`
 - Output: `نَ نً نّ نْ`
 
 ### Numbers
 
+[Reference](reference.md#numbers)
+
 `M-1` means `Alt` key plus `1` key.
 
-- Input: `1 M-1 4 M-4`
-- Output: `‏۱ 1 ۴ 4`
+- Input: `1 M-2 3 M-4`
+- Output: `‏۱ 2 ۳ 4`
 
-### Arabic Variants
+### Symbols + Typography
 
-- Input: `:k :y`
-- Output: `ك ي`
+[Reference](reference.md#symbols)
 
-- Input: `:4 :5 :6`
-- Output: `٤ ٥ ٦`
+- Input: `, ? ...`
+- Output: `، ؟ …`
 
-### Symbols
+- Input: `l M-- l`
+- Output: `لـل`
 
 ### (Non-)Joiners
 
+[Reference](reference.md#space-and-non-joiners)
+
 #### ZWNJ
 
-`(C-N)` means `Ctrl` key plus `N` key.
+`(M-␣)` means `Alt` key plus `Space` key.
 
-- Input: `mm m(C-N)m`
+- Input: `mm m(M-␣)m`
 - Output: `مم م‌م`
 
 #### ZWJ
 
-`(C-J)` means `Ctrl` key plus `J` key.
+`(M-+)` means `Alt` key plus `+` key.
 
-- Input: `aa a(C-J)a`
+- Input: `aa a(M-+)a`
 - Output: `اا ا‍ا`
+
+### Bi-directional text
+
+[Control characters](reference.md#bi-directional-text) for bi-directional text are available, too.
 
 ## Reference
 
