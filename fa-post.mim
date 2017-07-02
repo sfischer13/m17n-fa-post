@@ -250,17 +250,18 @@ For a description of the layout, have a look at the reference [1], the examples 
     ((A-\-) "ـ")
 
     ;; Mathematics and Culture
+    ("\\\\" "\\")
     ; Mathematics
-    ("#/" "÷")
-    ("#*" "×")
-    ("#-" "−")
-    ("#%" "٪")
+    ("\\/" "÷")
+    ("\\*" "×")
+    ("\\-" "−")
+    ("\\%" "٪")
     ; decimal separator
-    ("#," "٫")
     ((A-.) "٫")
+    ("\\," "٫")
     ; thousands separator
-    ("#'" "٬")
     ((A-,) "٬")
+    ("\\'" "٬")
 
     ;; Space and (Non-)Joiners
     ; non-breaking space (NBSP, U+00A0)
