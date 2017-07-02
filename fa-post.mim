@@ -152,6 +152,8 @@ For a description of the layout, have a look at the reference [1], the examples 
     ; Teh Marbuta
     ("h:" "ة")
     ("h::" "ه:")
+    ("t:" "ة")
+    ("t::" "ت:")
     ("T" "ة")
     ; Lam Alef
     ("L" "لا")
