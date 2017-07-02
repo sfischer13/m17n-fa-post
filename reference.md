@@ -262,10 +262,10 @@ RLE   | !RLE / !( | Right-to-left embedding
 
 Don't use *overrides* unless you know what you do.
 
-BIDI  | `m17n`   | Name
------ | -------- | ----------------------
-LRO   | !LRO /!} | Left-to-right override
-RLO   | !RLO /!{ | Right-to-left override
+BIDI  | `m17n`    | Name
+----- | --------- | ----------------------
+LRO   | !LRO / !} | Left-to-right override
+RLO   | !RLO / !{ | Right-to-left override
 
 ### Pops
 
