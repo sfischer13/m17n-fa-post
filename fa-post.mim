@@ -49,37 +49,37 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("b" "ب")
     ("p" "پ")
     ("t" "ت")
-    ("-s" "ث")
-    ("-t" "ث")
-    ("^g" "ج")
+    ("s-" "ث")
+    ("t-" "ث")
+    ("g^" "ج")
     ("G" "ج")
     ("j" "ج")
-    ("^c" "چ")
+    ("c^" "چ")
     ("C" "چ")
-    (".h" "ح")
-    ("-h" "خ")
-    ("-k" "خ")
+    ("h." "ح")
+    ("h-" "خ")
+    ("k-" "خ")
     ("x" "خ")
     ("d" "د")
-    ("-z" "ذ")
-    ("-d" "ذ")
+    ("z-" "ذ")
+    ("d-" "ذ")
     ("r" "ر")
     ("z" "ز")
-    ("^z" "ژ")
+    ("z^" "ژ")
     ("Z" "ژ")
     ("s" "س")
-    ("^s" "ش")
+    ("s^" "ش")
     ("S" "ش")
-    (".s" "ص")
-    (":z" "ض")
-    (".d" "ض")
-    (".t" "ط")
-    (".z" "ظ")
+    ("s." "ص")
+    ("z:" "ض")
+    ("d." "ض")
+    ("t." "ط")
+    ("z." "ظ")
     ("E" "ع")
     ("´" "ع")
     ("´´" "´")
-    (".g" "غ")
-    ("-g" "غ")
+    ("g." "غ")
+    ("g-" "غ")
     ("f" "ف")
     ("q" "ق")
     ("k" "ک")
@@ -96,18 +96,18 @@ For a description of the layout, have a look at the reference [1], the examples 
 
     ; Arabic
     ("K" "ك")
-    (":k" "ك")
-    (":y" "ي")
+    ("k:" "ك")
+    ("y:" "ي")
 
     ; Alef
     ; Alef Madda
-    ("-a" "آ")
+    ("a-" "آ")
     ("o" "آ")
     ; Alef Maksura
-    (":a" "ى")
+    ("a:" "ى")
     ("M" "ى")
     ; Alef + Fathatan
-    ("=a" "اً")
+    ("a=" "اً")
     ("N" "اً")
     ; Alef Wasla
     ("W" "ٱ")
@@ -121,7 +121,7 @@ For a description of the layout, have a look at the reference [1], the examples 
 
     ; Miscellaneous
     ; Teh Marbuta
-    (":h" "ة")
+    ("h:" "ة")
     ("T" "ة")
     ; Lam Alef
     ("L" "لا")
@@ -186,9 +186,9 @@ For a description of the layout, have a look at the reference [1], the examples 
     ((A-9) "9")
     ((A-0) "0")
     ; Eastern Arabic
-    (":4" "٤")
-    (":5" "٥")
-    (":6" "٦")
+    ("4:" "٤")
+    ("5:" "٥")
+    ("6:" "٦")
 
     ;; Symbols
     ; Punctuation
