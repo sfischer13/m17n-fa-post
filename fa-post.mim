@@ -302,12 +302,15 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("!PDI" "⁩")
     ((G-p) "⁩")
     ; pop directional formatting (PDF, U+202C)
-    ("!PDF" "‬")
-))
+    ("!PDF" "‬"))
+
+  (backspace
+    ((BackSpace) (undo))))
 
 (state
   (init
-    (default)))
+    (default)
+    (backspace)))
 
 ;; Local Variables:
 ;; coding: utf-8
