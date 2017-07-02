@@ -117,6 +117,7 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("K" "ك")
     ("k:" "ك")
     ("k::" "ک:")
+    ("Y" "ي")
     ("y:" "ي")
     ("y::" "ی:")
 
@@ -140,7 +141,6 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("O" "إ")
     ("H" "هٔ")
     ("V" "ؤ")
-    ("Y" "ئ")
 
     ; Miscellaneous
     ; Teh Marbuta
