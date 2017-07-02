@@ -135,6 +135,8 @@ Number | `m17n`
 
 ### Cultural
 
+Symbol | `m17n` | Name
+------ | ------ | ----
 
 ## Bi-directional text
 
