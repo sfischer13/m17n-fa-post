@@ -2,11 +2,10 @@
 
 Persian input method for m17n using postfix modifiers.
 
-For a description of the layout, have a look at the [reference](https://github.com/sfischer13/m17n-fa-post/blob/master/reference.md), the examples below, and the Wikipedia article about [romanization of Persian](https://en.wikipedia.org/wiki/Romanization_of_Persian). In general, this input method is based on the schemes of the [Deutsche Morgenländische Gesellschaft](https://en.wikipedia.org/wiki/Deutsche_Morgenl%C3%A4ndische_Gesellschaft), the [Encyclopædia Iranica](https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Iranica), and the [Hans Wehr transliteration](https://en.wikipedia.org/wiki/Hans_Wehr_transliteration) system.
+For a description of the layout, have a look at the [reference](reference.md), the examples below, and the Wikipedia article about [romanization of Persian](https://en.wikipedia.org/wiki/Romanization_of_Persian). In general, this input method is based on the schemes of the [Deutsche Morgenländische Gesellschaft](https://en.wikipedia.org/wiki/Deutsche_Morgenl%C3%A4ndische_Gesellschaft), the [Encyclopædia Iranica](https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Iranica), and the [Hans Wehr transliteration](https://en.wikipedia.org/wiki/Hans_Wehr_transliteration) system.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 
 - [Installation](#installation)
   - [Ubuntu + IBus](#ubuntu--ibus)
@@ -28,7 +27,7 @@ For a description of the layout, have a look at the [reference](https://github.c
 
 You have to copy `fa-post.mim` to a place where m17n can find it (`~/.m17n.d/`) and then restart your input method.
 
-A recent Linux system with an input method (IBus, UIM, SCIM) that supports the [m17n](http://www.nongnu.org/m17n/) library is required.
+A recent Linux system with an input method (IBus, UIM, SCIM, Fcitx) that supports the [m17n](http://www.nongnu.org/m17n/) library is required.
 
 ### Ubuntu + IBus
 
@@ -50,6 +49,9 @@ IBus can be buggy if your keyboard is non-US:
 ## Examples
 
 In the examples below, **spaces were added for clarification only.**
+
+There is a lot more to discover: shortcuts, typography, bi-directional text, …  
+Check the [reference](reference.md) for a documentation of all features.
 
 ### Letters
 
@@ -103,9 +105,10 @@ Diacritics are prefixed with `#`:
 
 There is a lot more to discover: shortcuts, typography, bi-directional text, …
 
-The [reference](https://github.com/sfischer13/m17n-fa-post/blob/master/reference.md) contains a complete documentation of the functionality of `m17n-fa-post`. If you're interested in how `m17n` works, you could have a look at the definitions in [fa-post.mim](https://github.com/sfischer13/m17n-fa-post/blob/master/fa-post.mim). 
+The [reference](reference.md) contains a complete documentation of the functionality of `m17n-fa-post`.
+If you're interested in how `m17n` works, you could have a look at the definitions in [fa-post.mim](fa-post.mim). 
 
 ## License
 Copyright (c) 2015-2017 Stefan Fischer  
 The source code is available under the **MIT License**.  
-See [LICENSE](https://github.com/sfischer13/m17n-fa-post/blob/master/LICENSE) for further details.
+See [LICENSE](LICENSE) for further details.
