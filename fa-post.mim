@@ -138,6 +138,15 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("W" "ٱ")
 
     ; Hamze
+    ("a#" "أ")
+    ("a##" "إ")
+    ("a###" "ا#")
+    ("h#" "هٔ")
+    ("h##" "ه#")
+    ("v#" "ؤ")
+    ("v##" "و#")
+    ("y#" "ئ")
+    ("y##" "ی#")
 
     ; Miscellaneous
     ; Teh Marbuta
