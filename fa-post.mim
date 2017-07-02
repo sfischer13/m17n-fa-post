@@ -210,16 +210,18 @@ For a description of the layout, have a look at the reference [1], the examples 
     ((G-,) "·")
     ; Tatweel
     ((A-\-) "ـ")
+
+    ;; Mathematics and Culture
     ; Mathematics
-    (":/" "÷")
-    (":*" "×")
-    (":-" "−")
-    (":%" "٪")
+    ("#/" "÷")
+    ("#*" "×")
+    ("#-" "−")
+    ("#%" "٪")
     ; decimal separator
-    (":," "٫")
+    ("#," "٫")
     ((A-.) "٫")
     ; thousands separator
-    (":'" "٬")
+    ("#'" "٬")
     ((A-,) "٬")
 
     ;; Space and (Non-)Joiners
