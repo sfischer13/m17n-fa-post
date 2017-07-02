@@ -42,7 +42,7 @@ For a description of the layout, have a look at the reference [1], the examples 
   (default
     ;; Letters
     ; Persian
-    ("c" "ء")
+    ("e" "ء")
     ("`" "ء")
     ("``" "`")
     ("a" "ا")
@@ -54,6 +54,7 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("g^" "ج")
     ("G" "ج")
     ("j" "ج")
+    ("c" "چ")
     ("c^" "چ")
     ("C" "چ")
     ("h." "ح")
