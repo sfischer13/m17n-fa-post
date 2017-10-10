@@ -279,7 +279,7 @@ For a description of the layout, have a look at the reference [1], the examples 
     ; Marks
     ; Arabic letter mark (ALM, U+061C)
     ("!ALM" "؜")
-    ("!~" "؜")
+    ("!+" "؜")
     ; left-to-right mark (LRM, U+200E)
     ("!LRM" "‎")
     ("!>" "‎")
@@ -295,7 +295,7 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("!(" "⁧")
     ; first strong isolate (FSI, U+2068)
     ("!FSI" "⁨")
-    ("!+" "⁨")
+    ("!*" "⁨")
     ; Embeddings
     ; left-to-right embedding (LRE, U+202A)
     ("!LRE" "‪")
@@ -316,7 +316,7 @@ For a description of the layout, have a look at the reference [1], the examples 
     ("!=" "⁩")
     ; pop directional formatting (PDF, U+202C)
     ("!PDF" "‬")
-    ("!#" "‬"))
+    ("!-" "‬"))
 
   (flush
     ((S-Return)))

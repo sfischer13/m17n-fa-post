@@ -235,7 +235,7 @@ For more details, see the Wikipedia article about [bi-directional text](https://
 
 BIDI  | `m17n`    | Name
 ----- | --------- | ------------------
-ALM   | !ALM / !~ | Arabic letter mark
+ALM   | !ALM / !+ | Arabic letter mark
 LRM   | !LRM / !> | Left-to-right mark
 RLM   | !RLM / !< | Right-to-left mark
 
@@ -247,7 +247,7 @@ BIDI  | `m17n`    | Name
 ----- | --------- | ---------------------
 LRI   | !LRI / !) | Left-to-right isolate
 RLI   | !RLI / !( | Right-to-left isolate
-FSI   | !FSI / !+ | First strong isolate
+FSI   | !FSI / !* | First strong isolate
 
 ### Embeddings
 
@@ -272,4 +272,4 @@ RLO   | !RLO / !{ | Right-to-left override
 BIDI  | `m17n`     | Name
 ----- | ---------- | --------------------------
 PDI   | !PDI / !=  | Pop directional isolate
-PDF   | !PDF / !#  | Pop directional formatting
+PDF   | !PDF / !-  | Pop directional formatting
