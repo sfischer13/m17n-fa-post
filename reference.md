@@ -3,7 +3,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Introduction](#introduction)
 - [Letters](#letters)
   - [Persian](#persian)
@@ -20,7 +19,6 @@
   - [Punctuation](#punctuation)
   - [Typography](#typography)
   - [Mathematics](#mathematics)
-  - [Cultural](#cultural)
 - [Space and (Non-)Joiners](#space-and-non-joiners)
 - [Bi-directional text](#bi-directional-text)
   - [Marks](#marks)
