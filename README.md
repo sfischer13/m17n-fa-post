@@ -109,17 +109,11 @@ Check the [reference](reference.md) for a documentation of all features.
 
 [Reference](reference.md#space-and-non-joiners)
 
-**ZWNJ**
-
-`(A-␣)` means `Alt` key plus `Space` key.
-
+- **ZWNJ** (`(A-␣)` means `Alt` key plus `Space` key.)
 - Input: `mm m(A-␣)m`
 - Output: `مم م‌م`
 
-**ZWJ**
-
-`(A-+)` means `Alt` key plus `+` key.
-
+- **ZWJ** (`(A-+)` means `Alt` key plus `+` key.)
 - Input: `aa a(A-+)a`
 - Output: `اا ا‍ا`
 
