@@ -1,3 +1,4 @@
+<!--lint disable awesome-github-->
 <!--lint disable double-link-->
 
 # Persian m17n
