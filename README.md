@@ -1,3 +1,5 @@
+<!--lint disable double-link-->
+
 # Persian m17n
 
 Persian input method for m17n using postfix modifiers.
