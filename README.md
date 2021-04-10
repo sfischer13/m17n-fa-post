@@ -109,13 +109,14 @@ Check the [reference](reference.md) for a documentation of all features.
 
 [Reference](reference.md#space-and-non-joiners)
 
-- **ZWNJ** (`(A-␣)` means `Alt` key plus `Space` key.)
-- Input: `mm m(A-␣)m`
-- Output: `مم م‌م`
-
-- **ZWJ** (`(A-+)` means `Alt` key plus `+` key.)
-- Input: `aa a(A-+)a`
-- Output: `اا ا‍ا`
+- Zero-width non-joiner (**ZWNJ**)
+  - Input: `mm m(A-␣)m`
+    `(A-␣)` means `Alt` key plus `Space` key.
+  - Output: `مم م‌م`
+- Zero-width joiner (**ZWJ**)
+  - Input: `aa a(A-+)a`
+    `(A-+)` means `Alt` key plus `+` key.
+  - Output: `اا ا‍ا`
 
 ### Bi-directional text
 
