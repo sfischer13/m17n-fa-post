@@ -1,5 +1,4 @@
-<!--lint disable awesome-contributing-->
-<!--lint disable awesome-github-->
+<!--lint disable awesome-contributing awesome-github awesome-license-->
 <!--lint disable double-link-->
 
 # Persian `m17n`
