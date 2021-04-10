@@ -1,3 +1,4 @@
+<!--lint disable awesome-contributing-->
 <!--lint disable awesome-github-->
 <!--lint disable double-link-->
 
