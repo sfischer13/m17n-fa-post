@@ -14,12 +14,13 @@ For a description of the layout, have a look at the [reference](reference.md), t
   - [Letters](#letters)
   - [Diacritics](#diacritics)
   - [Numbers](#numbers)
-  - [Arabic Variants](#arabic-variants)
-  - [Symbols](#symbols)
+  - [Symbols + Typography](#symbols--typography)
   - [(Non-)Joiners](#non-joiners)
     - [ZWNJ](#zwnj)
     - [ZWJ](#zwj)
+  - [Bi-directional text](#bi-directional-text)
 - [Reference](#reference)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
