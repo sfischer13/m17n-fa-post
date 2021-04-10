@@ -21,9 +21,7 @@ For a description of the layout, have a look at the [reference](reference.md), t
   - [Diacritics](#diacritics)
   - [Numbers](#numbers)
   - [Symbols + Typography](#symbols--typography)
-  - [(Non-)Joiners](#non-joiners)
-    - [ZWNJ](#zwnj)
-    - [ZWJ](#zwj)
+  - [(Non-)Joiners: ZWNJ/ZWJ](#non-joiners-zwnjzwj)
   - [Bi-directional text](#bi-directional-text)
 - [Reference](#reference)
 - [License](#license)
@@ -107,18 +105,18 @@ Check the [reference](reference.md) for a documentation of all features.
 - Input: `l A-- l`
 - Output: `لـل`
 
-### (Non-)Joiners
+### (Non-)Joiners: ZWNJ/ZWJ
 
 [Reference](reference.md#space-and-non-joiners)
 
-#### ZWNJ
+**ZWNJ**
 
 `(A-␣)` means `Alt` key plus `Space` key.
 
 - Input: `mm m(A-␣)m`
 - Output: `مم م‌م`
 
-#### ZWJ
+**ZWJ**
 
 `(A-+)` means `Alt` key plus `+` key.
 
