@@ -129,6 +129,7 @@ The [reference](reference.md) contains a complete documentation of the functiona
 If you're interested in how `m17n` works, you could have a look at the definitions in [fa-post.mim](fa-post.mim). 
 
 ## License
+
 Copyright (c) 2015-2021 Stefan Fischer  
 The source code is available under the **MIT License**.  
 See [LICENSE](LICENSE) for further details.
