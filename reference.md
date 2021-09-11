@@ -33,9 +33,9 @@
 
 The `m17n` library has its quirks. [Dead keys](https://en.wikipedia.org/wiki/Dead_key) and [AltGr](https://en.wikipedia.org/wiki/AltGr_key) might not work if you use a non-US keyboard. You can still fall back on one of the alternative keyboard shortcuts (e.g. *c* instead of *`*).
 
-* `A` means `Alt`
-* `C` means `Ctrl`
-* `S` means `Shift`
+- `A` means `Alt`
+- `C` means `Ctrl`
+- `S` means `Shift`
 
 ## Letters
 
@@ -187,7 +187,7 @@ Symbol  | `m17n`  | Name
 ‎؟      | ?       | Question mark
 ?       | ??      |
 ‎٭      | *       | Arabic star
-*       | **      |
+\*      | **      |
 
 ### Typography
 
